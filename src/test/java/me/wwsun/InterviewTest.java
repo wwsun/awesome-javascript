@@ -36,5 +36,6 @@ public class InterviewTest
             System.out.print(arr[i] +" -> ");
         }
         assertEquals(1, arr[0]);
+        assertEquals(16, arr[arr.length - 1]);
     }
 }
