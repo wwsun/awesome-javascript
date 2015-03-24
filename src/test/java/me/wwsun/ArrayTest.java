@@ -2,6 +2,7 @@ package me.wwsun;
 
 import junit.framework.TestCase;
 import me.wwsun.array.GameEntry;
+import me.wwsun.array.InsertionSort;
 import me.wwsun.array.ScoreBoard;
 
 public class ArrayTest extends TestCase {
@@ -19,5 +20,13 @@ public class ArrayTest extends TestCase {
 
         sb.remove(1);
         System.out.println(sb);
+    }
+
+    public void testInsertionSort() {
+        char[] a = {'C', 'E', 'B', 'D', 'A', 'I', 'J', 'L', 'K', 'H', 'G', 'F'};
+        System.out.println(java.util.Arrays.toString(a));
+
+        InsertionSort.insertionSort(a);
+        System.out.println(java.util.Arrays.toString(a));
     }
 }
