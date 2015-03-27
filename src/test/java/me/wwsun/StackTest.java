@@ -2,6 +2,7 @@ package me.wwsun;
 
 import junit.framework.TestCase;
 import me.wwsun.stacks.ArrayStack;
+import me.wwsun.stacks.MatchDelimiters;
 import me.wwsun.stacks.ReverseWithStack;
 import me.wwsun.stacks.Stack;
 
@@ -33,5 +34,29 @@ public class StackTest extends TestCase {
         ReverseWithStack.reverse(s);
         System.out.println("a = " + Arrays.toString(a));
         System.out.println("s = " + Arrays.toString(s));
+    }
+
+    public void testMatchDelimiters() {
+        String[] valid = {
+                "()(()){([()])}",
+                "( ) ( ( ) ) {( [ ( )  ] ) } ",
+                "(3) (3 + (4 - 5) ) {( [ ( )  ] ) } ",
+                "((()(()){([()])}))",
+                "[(5+x)-(y+z)]"
+        };
+
+        String[] invalid = {
+                ")(()){([()])}",
+                "({[])}",
+                "("
+        };
+
+        for (String s : valid)
+            if (!MatchDelimiters.isMatched(s))
+                System.out.println("Error evaluating valid: " + s);
+
+        for (String s : invalid)
+            if (MatchDelimiters.isMatched(s))
+                System.out.println("Error evaluating invalid: " + s);
     }
 }
