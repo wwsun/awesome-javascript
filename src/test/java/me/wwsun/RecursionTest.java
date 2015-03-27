@@ -7,6 +7,7 @@ import me.wwsun.recursion.DiskSpace;
 import me.wwsun.recursion.Factorial;
 
 import java.io.File;
+import java.util.Arrays;
 
 /**
  * Created by Weiwei on 2015/3/26.
@@ -37,8 +38,6 @@ public class RecursionTest extends TestCase {
         int data[] = {1, 4, 5, 20, 23};
         ArrayReverse.reverseArray(data, 0, data.length-1);
 
-        for (int i : data) {
-            System.out.print(i + " ");
-        }
+        System.out.println(Arrays.toString(data));
     }
 }
