@@ -1,85 +1,31 @@
 package me.wwsun.tree;
 
 /**
- * Created by Weiwei on 2015/3/23.
+ * Created by Weiwei on 2015/3/28.
  */
-public class BinaryTree {
-
-    // Root node pointer. Will be null for an empty tree.
-    private Node root;
-
-    /**
-     * Create an empty binary tree -- a null root pointer.
-     */
-    public BinaryTree() {
-        root = null;
-    }
+public interface BinaryTree<E> extends Tree<E> {
 
     /**
      *
-     * @param data
-     * @return true if the given target is in the binary tree.
+     * @param p
+     * @return the Position of p's left child (or null if no child exists)
+     * @throws IllegalArgumentException
      */
-    public boolean lookup(int data) {
-        return lookup(root, data);
-    }
-
-    /**
-     * Recursive lookup
-     * @param node
-     * @param data
-     * @return
-     */
-    private boolean lookup(Node node, int data) {
-        if (node==null) return false;
-        if (data == node.data) return true;
-        else if(data < node.data) return lookup(node.left, data);
-        else return lookup(node.right, data);
-    }
-
-    /**
-     * Inserts the given data into the binary tree.
-     * Use a recursive helper.
-     * @param data
-     */
-    public void insert(int data) {
-        root = insert(root, data);
-    }
-
-    private Node insert(Node node, int data) {
-        if (node==null) node = new Node(data);
-        else {
-            if (data <= node.data) {
-                node.left = insert(node.left, data);
-            } {
-                node.right = insert(node.right, data);
-            }
-        }
-        return node;
-    }
+    Position<E> left(Position<E> p) throws IllegalArgumentException;
 
     /**
      *
-     * @return the number of nodes in the tree.
+     * @param p
+     * @return the Position of p's right child (or null if no child exists)
+     * @throws IllegalArgumentException
      */
-    public int size(){
-        return size(root);
-    }
+    Position<E> right(Position<E> p) throws IllegalArgumentException;
 
-    private int size(Node node) {
-        if (node == null) return 0;
-        else return size(node.left) + 1 + size(node.right);
-    }
-
-    public void printTree() {
-        printTree(root);
-        System.out.println();
-    }
-
-    private void printTree(Node node) {
-        if (node==null) return;
-        printTree(node.left);
-        System.out.println(node.data + " ");
-        printTree(node.right);
-    }
+    /**
+     *
+     * @param p
+     * @return the Position of p's sibling (or null if no child exists)
+     * @throws IllegalArgumentException
+     */
+    Position<E> sibling(Position<E> p) throws IllegalArgumentException;
 }
