@@ -7,9 +7,17 @@
 ### Reading
 
 1. [Eloquent JavaScript Online Book](http://eloquentjavascript.net/)
+2. [Speaking JavaScript: An In-Depth Guide for Programmers](http://speakingjs.com/)
 2. [JavaScript高级程序设计，第三版](http://book.douban.com/subject/10546125/)
 3. [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
 2. [阮一峰： JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
+3. [关于一些前端JS框架的源码研究](http://segmentfault.com/a/1190000002670622?_ea=199819)
+
+
+### Blogs
+
+1. [@ality - JavaScript and more](http://www.2ality.com/)
+2. [Blog: Ariya Hidayat](http://ariya.ofilabs.com/)
 
 ### Abstract Syntax Tree
 
@@ -46,6 +54,11 @@ Tutorial
 
 1. [JavaScript Immediately-Invoked Function Expression](http://benalman.com/news/2010/11/immediately-invoked-function-expression/#iife)
 
+### Promise
+
+1. Browser-side: [bluebird, a full featured promise library](https://github.com/petkaantonov/bluebird)
+2. Nodejs-side: [co - he ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)](https://github.com/tj/co)
+
 
 ### Modular
 
@@ -60,22 +73,74 @@ Reading
 6. [百度EFE：玩转AMD](http://efe.baidu.com/blog/dissecting-amd-preface/)
 7. [异步模块定义AMD API中文版](https://github.com/amdjs/amdjs-api/wiki/AMD-(%E4%B8%AD%E6%96%87%E7%89%88))
 8. [CommonJS规范 中文版](http://javascript.ruanyifeng.com/nodejs/commonjs.html)
-9.[ RequireJS in Node](http://requirejs.org/docs/node.html)
+9. [ RequireJS in Node](http://requirejs.org/docs/node.html)
 
 Tutorial
 
 1. [Understanding RequireJS for Effective JavaScript Module Loading](http://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/)
 2. [Writing Modular JavaScript With AMD, CommonJS & ES Harmony](http://addyosmani.com/writing-modular-js/)
 
+### ES 5
+
+1. [Object.create()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+2. [Object.defineProperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+3. [getter](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/get)
+4. [setter](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/set)
+5. [严格模式](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Strict_mode)
+6. [JSON](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+7. [Array.prototype.map()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+8. [Array.prototype.filter()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
+### Future
+
+1. [跟 Web Components 打个啵](http://segmentfault.com/a/1190000002931974)
+
 ## ECMAScript 6
 
 ### Reading
 
-1. [阮一峰： ECMAScript 6入门](http://es6.ruanyifeng.com/#docs/intro)
+1. [Learn ES2015, a detailed overview of ECMASCRIPT 6 features](https://babeljs.io/docs/learn-es2015/)
+2. [阮一峰： ECMAScript 6入门](http://es6.ruanyifeng.com/#docs/intro)
+2. [Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
+3. InfoQ专栏：[深入浅出ES6](http://www.infoq.com/cn/es6-in-depth/)
+
+
+### Speech
+
+1. Youtube: [John Paul - ES6 Right Now](https://www.youtube.com/watch?v=rwm5JLqCpdk)
+2. Youtube: [PeterHallam & AlexRussell: Traceur: JS to JS compiler](https://www.youtube.com/watch?feature=player_detailpage&v=ntDZa7ekFEA)
+
+### Tutorial
+
+1. [Using the ES6 transpiler Babel on Node.js](http://www.2ality.com/2015/03/babel-on-node.html)
+2. [Traceur, Gulp, Browserify and ES6](http://www.mattgreer.org/articles/traceur-gulp-browserify-es6/)
+
+### Libraries
+
+1. Github: [es6-shim, ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines](https://github.com/paulmillr/es6-shim/)
+2. [Babel](https://babeljs.io/) is a JavaScript compiler.
+3. Github: [Traceur, a JavaScript.next-to-JavaScript-of-today compiler](https://github.com/google/traceur-compiler)
+4. [Traceur REPL](https://google.github.io/traceur-compiler/demo/repl.html)
+5. [Babel REPL](http://babeljs.io/repl/)
+4. Github: [grunt-traceur](https://github.com/aaronfrost/grunt-traceur)
+5. Github: [gulp-traceur](https://github.com/sindresorhus/gulp-traceur)
+6. Github: [broccoli-traceur](https://github.com/sindresorhus/broccoli-traceur)
+7. Github: [es6ify](https://github.com/thlorenz/es6ify)
+
+### Questions
+
+1. StackoverFlow: [Differences between Babel and Traceur](http://stackoverflow.com/questions/28447132/should-i-use-babel-or-google-traceur-to-compile-my-es6-code)
 
 ### ES6 Generator
 
 1. Youtube: [ES6 Generator Tutorial](https://www.youtube.com/watch?v=QO07THdLWQo)
+2. [The Basics Of ES6 Generators](http://davidwalsh.name/es6-generators)
+3. [学习ES6生成器](http://www.toobug.net/article/learning_es6_generator.html)
+
+### ES6 Promise
+
+1. [谈谈ES6的Promise对象](http://segmentfault.com/a/1190000002928371)
+2. [异步流程控制：7 行代码学会 co 模块](http://segmentfault.com/a/1190000002732081)
 
 ## Node.js
 
@@ -89,6 +154,7 @@ Tutorial
 5. [Node.js Process对象](http://javascript.ruanyifeng.com/nodejs/process.html)
 5. [Node编码规范](http://www.ituring.com.cn/article/197990)
 6. [ES6 on node.js](http://h3manth.com/new/blog/2013/es6-on-nodejs/)
+7. [美团酒店Node全栈开发实践](http://tech.meituan.com/node-fullstack-development-practice.html)
 
 ### Node.js Tutorial
 
@@ -111,10 +177,11 @@ Module `path`
 ### Koajs
 
 1. [Koajs - 下一代Node.js Web框架](http://koa.rednode.cn/)
+2. PPT: [Co and Koa Talk](http://deadhorse.me/co-and-koa-talk/)
 2. [Getting Started With Koajs](http://h3manth.com/new/blog/2014/getting-started-with-koajs/)
 3. [Koajs开发最佳实践](http://www.html-js.com/article/Koa-small-classroom-Koajs-development-best-practices)
 4. [Koajs中间件开发最佳实践和应用架构建议](http://koa.rednode.cn/#guide)
-
+5. [Why you should and shouln't use Koa](http://www.jongleberry.com/why-you-should-and-shouldnt-use-koa.html)
 
 ## Tools
 
