@@ -136,6 +136,7 @@ Tutorial
 1. Youtube: [ES6 Generator Tutorial](https://www.youtube.com/watch?v=QO07THdLWQo)
 2. [The Basics Of ES6 Generators](http://davidwalsh.name/es6-generators)
 3. [学习ES6生成器](http://www.toobug.net/article/learning_es6_generator.html)
+4. Workshop: [Learn Generators](https://github.com/isRuslan/learn-generators)
 
 ### ES6 Promise
 
@@ -160,6 +161,7 @@ Tutorial
 
 1. [Creating and Publishing Node.js Modules](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/)
 2. [Node.js Tutorial Collection](http://docs.nodejitsu.com/)
+3. [NodeSchool](http://nodeschool.io/)
 
 ### Node.js Modules
 
@@ -177,11 +179,15 @@ Module `path`
 ### Koajs
 
 1. [Koajs - 下一代Node.js Web框架](http://koa.rednode.cn/)
+2. [Koa中文文档](https://github.com/turingou/koa-guide)
 2. PPT: [Co and Koa Talk](http://deadhorse.me/co-and-koa-talk/)
 2. [Getting Started With Koajs](http://h3manth.com/new/blog/2014/getting-started-with-koajs/)
 3. [Koajs开发最佳实践](http://www.html-js.com/article/Koa-small-classroom-Koajs-development-best-practices)
 4. [Koajs中间件开发最佳实践和应用架构建议](http://koa.rednode.cn/#guide)
 5. [Why you should and shouln't use Koa](http://www.jongleberry.com/why-you-should-and-shouldnt-use-koa.html)
+6. [Kick-Off-Koa](https://github.com/koajs/kick-off-koa) - An intro to koa via a set of self-guided workshops
+7. [Workshop](https://github.com/koajs/workshop) - A workshop to learn the the basics of koa, Express's spiritual successor
+8. [Koajs quick start guide](http://knowthen.com/episode-3-koajs-quickstart-guide/)
 
 ## Tools
 
