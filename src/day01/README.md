@@ -12,4 +12,5 @@ Callback functions makes simple things complicated. And now there is new options
 
 ### References
 
-1. https://hacks.mozilla.org/category/es6-in-depth/https:/hacks.mozilla.org/category/es6-in-depth/
+1. tj/co: the ultimate generator based flow-control goodness for nodejs
+2. http://knowthen.com/node-js-callbacks-vs-generators/
