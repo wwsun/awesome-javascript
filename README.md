@@ -1,6 +1,8 @@
 # Awesome JavaScript
 
-如果你对JavaScript的理解仅限于DOM操纵，页面动画等等，本列表将为你展现JavaScript更多的功能。本列表是一些优秀的网络资源的汇总，部分资料需要翻墙访问。
+[JavaScript](http://javascript.crockford.com/zh/javascript.html)是一个仅在一周就被发明出来的小玩意，所以，它有着有多的缺陷，即使是这样，它已经存在了20年，全世界几乎每台电脑都至少装有一个JavaScript解释器，况且今天这个当初的小玩意的目标是编写大型的企业应用。如果你对JavaScript的理解仅限于DOM操纵，页面动画，jQuery等等，本列表将为你展现JavaScript的更多的令人震撼的功能。
+
+这份列表是一些优秀的网络资源的汇总，部分资源可能需要翻墙（[梯子](http://www.jianshu.com/p/3ded38c49de6)）访问。本列表不追求大而全，而追求寻找那些对JavaScript中的某些知识点有着独到见解的网络资源，希望这些资料的汇集能够为您在寻找类似资料的时候带来一点便利。
 
 ## JavaScript
 
@@ -10,9 +12,8 @@
 2. [Speaking JavaScript: An In-Depth Guide for Programmers](http://speakingjs.com/)
 2. [JavaScript高级程序设计，第三版](http://book.douban.com/subject/10546125/)
 3. [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+4. [JavaScript精粹](https://www.safaribooksonline.com/library/view/javascript-the-good/9780596517748/)
 2. [阮一峰： JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
-3. [关于一些前端JS框架的源码研究](http://segmentfault.com/a/1190000002670622?_ea=199819)
-
 
 ### Blogs
 
@@ -74,6 +75,8 @@ Reading
 7. [异步模块定义AMD API中文版](https://github.com/amdjs/amdjs-api/wiki/AMD-(%E4%B8%AD%E6%96%87%E7%89%88))
 8. [CommonJS规范 中文版](http://javascript.ruanyifeng.com/nodejs/commonjs.html)
 9. [ RequireJS in Node](http://requirejs.org/docs/node.html)
+11. [前端模块及依赖管理的新选择：Browserify](http://segmentfault.com/a/1190000002941361)
+12. [Browserify Handbook](https://github.com/substack/browserify-handbook)
 
 Tutorial
 
@@ -95,6 +98,13 @@ Tutorial
 
 1. [跟 Web Components 打个啵](http://segmentfault.com/a/1190000002931974)
 
+### React.js
+
+1. [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
+2. [React.js Starter Kit](http://facebook.github.io/react/downloads.html)
+2. [Getting started with Facebook's React.js](https://scotch.io/courses/getting-started-with-facebooks-react-js)
+3. [Navigating the React Ecosystem](http://www.toptal.com/react/navigating-the-react-ecosystem)
+
 ## ECMAScript 6
 
 ### Reading
@@ -102,7 +112,8 @@ Tutorial
 1. [Learn ES2015, a detailed overview of ECMASCRIPT 6 features](https://babeljs.io/docs/learn-es2015/)
 2. [阮一峰： ECMAScript 6入门](http://es6.ruanyifeng.com/#docs/intro)
 2. [Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
-3. InfoQ专栏：[深入浅出ES6](http://www.infoq.com/cn/es6-in-depth/)
+3. InfoQ专栏：[深入浅出ES6(更新中)](http://www.infoq.com/cn/es6-in-depth/)
+4. Mozilla: [ES6 in Depth](https://hacks.mozilla.org/category/es6-in-depth/https:/hacks.mozilla.org/category/es6-in-depth/)
 
 
 ### Speech
@@ -131,12 +142,14 @@ Tutorial
 
 1. StackoverFlow: [Differences between Babel and Traceur](http://stackoverflow.com/questions/28447132/should-i-use-babel-or-google-traceur-to-compile-my-es6-code)
 
-### ES6 Generator
+### ES6 Iterators/Generator
 
-1. Youtube: [ES6 Generator Tutorial](https://www.youtube.com/watch?v=QO07THdLWQo)
+1. [Iterators gonna iterate](http://www.sitepoint.com/ecmascript-2015-generators-and-iterators/)
+2. Youtube: [ES6 Generator Tutorial](https://www.youtube.com/watch?v=QO07THdLWQo)
 2. [The Basics Of ES6 Generators](http://davidwalsh.name/es6-generators)
 3. [学习ES6生成器](http://www.toobug.net/article/learning_es6_generator.html)
 4. Workshop: [Learn Generators](https://github.com/isRuslan/learn-generators)
+5. ECMAScript 2015: [Generators and Iterators](http://www.sitepoint.com/ecmascript-2015-generators-and-iterators/)
 
 ### ES6 Promise
 
@@ -149,6 +162,7 @@ Tutorial
 
 1. Book: [Node.js In Action](http://www.manning.com/cantelon/)
 2. [Node.js概述](http://javascript.ruanyifeng.com/nodejs/basic.html)
+3. [List: Awesome nodejs](https://github.com/vndmtrx/awesome-nodejs)
 3. [Eleoquent JavaScript, chapter 20, Node.js](http://www.manning.com/cantelon/)
 4. [七天学会Node.js](http://nqdeng.github.io/7-days-nodejs/?spm=0.0.0.0.VHCNjm)
 4. [Node.js Manual & Documentation](https://nodejs.org/api/modules.html)
@@ -170,6 +184,7 @@ Module `fs`
 1. [fs模块简介](http://javascript.ruanyifeng.com/nodejs/fs.html)
 2. [How do I write files in node.js?](http://docs.nodejitsu.com/articles/file-system/how-to-write-files-in-nodejs)
 2. [Create Simple Text File in Node.js Using 'fs' Module](http://www.c-sharpcorner.com/UploadFile/dacca2/node-js-in-action-create-simple-text-file-in-node-js-using/)
+3. [Making directory along with missing parents in Node.js](http://lmws.net/making-directory-along-with-missing-parents-in-node-js)
 
 Module `path`
 
@@ -189,6 +204,18 @@ Module `path`
 7. [Workshop](https://github.com/koajs/workshop) - A workshop to learn the the basics of koa, Express's spiritual successor
 8. [Koajs quick start guide](http://knowthen.com/episode-3-koajs-quickstart-guide/)
 
+## Template Language
+
+### Nunjucks
+
+1. [Nunjucks 快速上手](http://mozilla.github.io/nunjucks/cn/getting-started.html)
+2. doc: [Nunjucks 可用模版列表](http://mozilla.github.io/nunjucks/cn/templating.html)
+
+### Jade
+
+1. Jade - a Node Template Engine, [Language Reference](http://jade-lang.com/reference/)
+2. [Jade Syntax Documentation](http://naltatis.github.io/jade-syntax-docs/)
+
 ## Tools
 
 ### Editor
@@ -201,6 +228,12 @@ Tutorial
 
 1. [Hello Visual Studio Code (with Node.js)](https://channel9.msdn.com/Blogs/cloud-with-a-silver-lining/hello-visual-studio-code-nodejs)
 2. John Papa: [Debugging with Visual Studio Code](https://channel9.msdn.com/Blogs/cloud-with-a-silver-lining/hello-visual-studio-code-nodejs)
+
+### Build
+
+Reading
+
+1. [The State of JS Build Tools 2015](http://www.walkercoderanger.com/blog/2015/06/state-of-js-build-tools-2015)
 
 ### Git/ Github/ Gitlab
 
