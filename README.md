@@ -6,7 +6,7 @@
 
 ## JavaScript
 
-### Reading
+### Books
 
 1. [Eloquent JavaScript Online Book](http://eloquentjavascript.net/)
 2. [Speaking JavaScript: An In-Depth Guide for Programmers](http://speakingjs.com/)
@@ -14,6 +14,11 @@
 3. [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
 4. [JavaScript精粹](https://www.safaribooksonline.com/library/view/javascript-the-good/9780596517748/)
 2. [阮一峰： JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
+
+### Readings
+
+1. [同构JavaScript应用](http://isomorphic.net/)
+2. [知乎：大公司是如何开发和部署前端代码的](http://www.zhihu.com/question/20790576/answer/32602154)
 
 ### Blogs
 
@@ -77,6 +82,7 @@ Reading
 9. [ RequireJS in Node](http://requirejs.org/docs/node.html)
 11. [前端模块及依赖管理的新选择：Browserify](http://segmentfault.com/a/1190000002941361)
 12. [Browserify Handbook](https://github.com/substack/browserify-handbook)
+13. [前端工程与模块化框架](http://div.io/topic/439)
 
 Tutorial
 
@@ -94,16 +100,37 @@ Tutorial
 7. [Array.prototype.map()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 8. [Array.prototype.filter()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
-### Future
-
-1. [跟 Web Components 打个啵](http://segmentfault.com/a/1190000002931974)
-
 ### React.js
 
+Reading
+
 1. [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
-2. [React.js Starter Kit](http://facebook.github.io/react/downloads.html)
-2. [Getting started with Facebook's React.js](https://scotch.io/courses/getting-started-with-facebooks-react-js)
+2. [React: Create maintainable, high-performance UI components](http://www.ibm.com/developerworks/library/wa-react-intro/)
 3. [Navigating the React Ecosystem](http://www.toptal.com/react/navigating-the-react-ecosystem)
+4. [Flux: An Application Architecture for React](https://facebook.github.io/react/blog/2014/05/06/flux.html)
+6. [Smart and Dumb Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+8. [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
+9. [React To The Future With Isomorphic Apps](React To The Future With Isomorphic Apps)
+
+
+Libraies
+
+9. [React-Bootstrap: css framework ](http://react-bootstrap.github.io/)
+10. [React-Router: routing in react app](http://rackt.github.io/react-router/)
+11. [formsy-react: a form input builder and validator for React JS](https://github.com/christianalfoni/formsy-react)
+
+Tutorial
+
+7. [Building The Facebook News Feed With Relay](http://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html)
+2. [React.js Starter Kit](http://facebook.github.io/react/downloads.html)
+3. [Flux Quick Start: manage data and state for react app](https://facebook.github.io/flux/docs/overview.html)
+2. [Getting started with Facebook's React.js](https://scotch.io/courses/getting-started-with-facebooks-react-js)
+
+### Others
+
+1. [跟 Web Components 打个啵](http://segmentfault.com/a/1190000002931974)
+2. [Isomorphic JavaScript: The Future of Web Apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
+
 
 ## ECMAScript 6
 
@@ -231,9 +258,19 @@ Tutorial
 
 ### Build
 
+Build Tools
+
+1. [Grunt](http://gruntjs.com/)
+2. [Gulp, the streaming building system](http://gulpjs.com/)
+3. [Browserify](http://browserify.org/)
+4. [WebPack](http://webpack.github.io)
+
 Reading
 
 1. [The State of JS Build Tools 2015](http://www.walkercoderanger.com/blog/2015/06/state-of-js-build-tools-2015)
+2. 腾讯：[Browserify运行原理分析](http://www.alloyteam.com/2014/10/browserify-yun-xing-yuan-li-fen-xi/)
+2. [Getting started with webpack](http://webpack.github.io/docs/tutorials/getting-started/)
+3. [WebPack怎么用](http://segmentfault.com/a/1190000002552008)
 
 ### Git/ Github/ Gitlab
 
