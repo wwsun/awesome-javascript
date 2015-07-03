@@ -1,0 +1,20 @@
+{
+  "name": "koa-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Weiwei SUN <jingzhuang.sww@alibaba-inc.com> (http://wwsun.me)",
+  "license": "ISC",
+  "dependencies": {
+    "co-body": "~2.0.0",
+    "co-views": "~1.0.0",
+    "ejs": "~2.3.2",
+    "koa": "~0.21.0",
+    "koa-route": "~2.4.1",
+    "koa-session": "~3.2.0"
+  }
+}
