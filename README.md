@@ -84,6 +84,11 @@ Reading
 12. [Browserify Handbook](https://github.com/substack/browserify-handbook)
 13. [前端工程与模块化框架](http://div.io/topic/439)
 
+### Design Patterns
+
+1. [极客学院：学用JavaScript设计模式](http://wiki.jikexueyuan.com/project/javascript-design-patterns/overwise.html)
+2. [什么是掺合模式（Mixin）](http://www.cnblogs.com/snandy/archive/2013/05/24/3086663.html)
+
 Tutorial
 
 1. [Understanding RequireJS for Effective JavaScript Module Loading](http://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/)
@@ -111,6 +116,11 @@ Reading
 6. [Smart and Dumb Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 8. [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
 9. [React To The Future With Isomorphic Apps](React To The Future With Isomorphic Apps)
+10. [React 入门教程](http://hulufei.gitbooks.io/react-tutorial/content/jsx-spread-attributes.html)
+11. [Thinking in React](http://hulufei.gitbooks.io/react-tutorial/content/jsx-spread-attributes.html)
+12. [An opinionated guide to React.js best practices and conventions](https://web-design-weekly.com/2015/01/29/opinionated-guide-react-js-best-practices-conventions/)
+13. [Best practices for building large React applications](http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications)
+14. [From AngularJS to React: The Isomorphic Way](http://blog.risingstack.com/from-angularjs-to-react-the-isomorphic-way/)
 
 
 Libraies
@@ -125,6 +135,8 @@ Tutorial
 2. [React.js Starter Kit](http://facebook.github.io/react/downloads.html)
 3. [Flux Quick Start: manage data and state for react app](https://facebook.github.io/flux/docs/overview.html)
 2. [Getting started with Facebook's React.js](https://scotch.io/courses/getting-started-with-facebooks-react-js)
+3. [React with WebPack - part 1](http://jslog.com/2014/10/02/react-with-webpack-part-1/)
+4. [基于ES6，使用React、Webpack、Babel构建模块化JavaScript应用](http://www.csdn.net/article/2015-05-24/2824757-building-modular-javascript-applications-in-es6-with-react-webpack-and-babel)
 
 ### Others
 
@@ -271,6 +283,7 @@ Reading
 2. 腾讯：[Browserify运行原理分析](http://www.alloyteam.com/2014/10/browserify-yun-xing-yuan-li-fen-xi/)
 2. [Getting started with webpack](http://webpack.github.io/docs/tutorials/getting-started/)
 3. [WebPack怎么用](http://segmentfault.com/a/1190000002552008)
+4. github: [webpack-howto: a simple cookbook](https://github.com/petehunt/webpack-howto)
 
 ### Git/ Github/ Gitlab
 
