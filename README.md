@@ -125,9 +125,10 @@ Reading
 
 Libraies
 
-9. [React-Bootstrap: css framework ](http://react-bootstrap.github.io/)
-10. [React-Router: routing in react app](http://rackt.github.io/react-router/)
-11. [formsy-react: a form input builder and validator for React JS](https://github.com/christianalfoni/formsy-react)
+1. [React: complementatry tools](https://github.com/facebook/react/wiki/Complementary-Tools#full-stack-starter-kits)
+2. [React-Bootstrap: css framework ](http://react-bootstrap.github.io/)
+3. [React-Router: routing in react app](http://rackt.github.io/react-router/)
+4. [formsy-react: a form input builder and validator for React JS](https://github.com/christianalfoni/formsy-react)
 
 Tutorial
 
@@ -135,7 +136,8 @@ Tutorial
 2. [React.js Starter Kit](http://facebook.github.io/react/downloads.html)
 3. [Flux Quick Start: manage data and state for react app](https://facebook.github.io/flux/docs/overview.html)
 2. [Getting started with Facebook's React.js](https://scotch.io/courses/getting-started-with-facebooks-react-js)
-3. [React with WebPack - part 1](http://jslog.com/2014/10/02/react-with-webpack-part-1/)
+3. Youtube: [Trying webpack with React.js](https://www.youtube.com/watch?v=Ob1ruoUnc58)
+4. [React with WebPack - part 1](http://jslog.com/2014/10/02/react-with-webpack-part-1/)
 4. [基于ES6，使用React、Webpack、Babel构建模块化JavaScript应用](http://www.csdn.net/article/2015-05-24/2824757-building-modular-javascript-applications-in-es6-with-react-webpack-and-babel)
 
 ### Others
@@ -194,6 +196,18 @@ Tutorial
 
 1. [谈谈ES6的Promise对象](http://segmentfault.com/a/1190000002928371)
 2. [异步流程控制：7 行代码学会 co 模块](http://segmentfault.com/a/1190000002732081)
+
+
+## WebSocket
+
+### Reading
+
+1. Book: [The definitive guide to HTML5 WebSocket](http://www.apress.com/9781430247401)
+2. [Stream Updates with Server-Sent Events](http://www.html5rocks.com/en/tutorials/eventsource/basics/)
+
+### Tutorial
+
+1. [Real time online activity monitor example with node.js and WebSocket](https://www.new-bamboo.co.uk/blog/2009/12/08/real-time-online-activity-monitor-example-with-node-js-and-websocket/)
 
 ## Node.js
 
@@ -290,4 +304,4 @@ Reading
 > If you use Github, just use Github for Windows;
 > If you use Gitlab in a internal network, you can use TortoiseGit as a GUI tool for git.
 
-1. Youtube: [TortoiseGit Tutorial](www.youtube.com/watch?v=pp2S2lHjzZI)
+1. Youtube: [TortoiseGit Tutorial](https://www.youtube.com/watch?v=pp2S2lHjzZI)
