@@ -19,6 +19,7 @@
 
 1. [同构JavaScript应用](http://isomorphic.net/)
 2. [知乎：大公司是如何开发和部署前端代码的](http://www.zhihu.com/question/20790576/answer/32602154)
+3. [Learn javascript in one picture](https://github.com/coodict/javascript-in-one-pic)
 
 ### Blogs
 
