@@ -110,13 +110,13 @@ Tutorial
 
 Reading
 
-1. [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
+1. Online Book: [React and Webpack](http://survivejs.com/webpack_react/introduction/)
+2. [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
 2. [React: Create maintainable, high-performance UI components](http://www.ibm.com/developerworks/library/wa-react-intro/)
 3. [Navigating the React Ecosystem](http://www.toptal.com/react/navigating-the-react-ecosystem)
 4. [Flux: An Application Architecture for React](https://facebook.github.io/react/blog/2014/05/06/flux.html)
 6. [Smart and Dumb Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 8. [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
-9. [React To The Future With Isomorphic Apps](React To The Future With Isomorphic Apps)
 10. [React 入门教程](http://hulufei.gitbooks.io/react-tutorial/content/jsx-spread-attributes.html)
 11. [Thinking in React](http://hulufei.gitbooks.io/react-tutorial/content/jsx-spread-attributes.html)
 12. [An opinionated guide to React.js best practices and conventions](https://web-design-weekly.com/2015/01/29/opinionated-guide-react-js-best-practices-conventions/)
@@ -224,6 +224,8 @@ Tutorial
 5. [Node编码规范](http://www.ituring.com.cn/article/197990)
 6. [ES6 on node.js](http://h3manth.com/new/blog/2013/es6-on-nodejs/)
 7. [美团酒店Node全栈开发实践](http://tech.meituan.com/node-fullstack-development-practice.html)
+8. 阮一峰:[require() 源码解读](http://www.techug.com/require)
+9. Online Book: [stream-book](https://github.com/substack/stream-handbook), teach you how to write node.js programs with streams
 
 ### Node.js Tutorial
 
@@ -294,7 +296,10 @@ Build Tools
 
 Reading
 
-1. [The State of JS Build Tools 2015](http://www.walkercoderanger.com/blog/2015/06/state-of-js-build-tools-2015)
+1. PPT: [Build Wars](http://markdalgleish.github.io/presentation-build-wars-gulp-vs-grunt/#1)
+2. [The State of JS Build Tools 2015](http://www.walkercoderanger.com/blog/2015/06/state-of-js-build-tools-2015)
+2. [Gulp vs Grunt. Why one? Why the Other?](https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4)
+3. [Grunt vs Gulp - Beyond the Numbers](http://jaysoo.ca/2014/01/27/gruntjs-vs-gulpjs/)
 2. 腾讯：[Browserify运行原理分析](http://www.alloyteam.com/2014/10/browserify-yun-xing-yuan-li-fen-xi/)
 2. [Getting started with webpack](http://webpack.github.io/docs/tutorials/getting-started/)
 3. [WebPack怎么用](http://segmentfault.com/a/1190000002552008)
