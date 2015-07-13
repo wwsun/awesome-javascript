@@ -25,6 +25,7 @@
 
 1. [@ality - JavaScript and more](http://www.2ality.com/)
 2. [Blog: Ariya Hidayat](http://ariya.ofilabs.com/)
+3. [Code as Craft](https://codeascraft.com/)
 
 ### Abstract Syntax Tree
 
@@ -33,6 +34,7 @@ Basic Knowledge
 1. 美团：[抽象语法树在JavaScript中的应用](http://tech.meituan.com/abstract-syntax-tree.html)
 2. [轻松搞定JavaScript预解析机制](http://www.cnblogs.com/ivangel/p/3694694.html)
 2. [JavaScript编译运行原理](http://www.chenjunxyf.me/javascriptjie-xi-yun-xing-ji-zhi/)
+3. PPT： [Building JavaScript Tools](http://gregfranko.com/building-javascript-tools-talk)
 3. SlideShare: [JavaScript: Abstract Syntax Tree](http://www.slideshare.net/RReverser/speaker-presentation2)
 4. SlideShare: [Esprima, what is that](http://www.slideshare.net/abhijeetkpawar/esprima-what-is-that)
 
@@ -42,6 +44,8 @@ Tools
 2. [Esprima: most popular ECMAScript parser in JS](http://esprima.org/index.html)
 3. [Acorn](https://github.com/marijnh/acorn) - faster alternative ECMAScript parser in JS
 4. [UglifyJS](http://lisperator.net/uglifyjs/ast) - has own parser with custom AST format
+5. [Estraverse](https://github.com/estools/estraverse) - taraverse and update the AST
+6. [Escodegen](https://github.com/estools/escodegen) - generates code from an AST
 
 > Esprima解析得到的抽象语法树AST遵循SpiderMonkey的[API](https://developer.mozilla.org/zh-CN/docs/Mozilla/Projects/SpiderMonkey/Parser_API)。
 
@@ -133,7 +137,8 @@ Libraies
 
 Tutorial
 
-7. [Building The Facebook News Feed With Relay](http://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html)
+1. [React.js Introduction For People Who Know Just Enough jQuery To Get By](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
+2. [Building The Facebook News Feed With Relay](http://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html)
 2. [React.js Starter Kit](http://facebook.github.io/react/downloads.html)
 3. [Flux Quick Start: manage data and state for react app](https://facebook.github.io/flux/docs/overview.html)
 2. [Getting started with Facebook's React.js](https://scotch.io/courses/getting-started-with-facebooks-react-js)
@@ -226,6 +231,8 @@ Tutorial
 7. [美团酒店Node全栈开发实践](http://tech.meituan.com/node-fullstack-development-practice.html)
 8. 阮一峰:[require() 源码解读](http://www.techug.com/require)
 9. Online Book: [stream-book](https://github.com/substack/stream-handbook), teach you how to write node.js programs with streams
+10. [GraphQL Overview - Getting Started with GraphQL and Node.js](http://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/)
+11. Reading:[ Building With Node.js At eBay](https://www.talentbuddy.co/blog/building-with-node-js-at-ebay/)
 
 ### Node.js Tutorial
 
@@ -246,6 +253,13 @@ Module `path`
 
 1. [path模块简介](http://javascript.ruanyifeng.com/nodejs/path.html)
 
+
+### NPM
+
+1. [How to Build an npm Package](http://blog.teamtreehouse.com/build-npm-package)
+2. [A Facade for Tooling with NPM Package Scripts](https://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/)
+2. [How to Use npm as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
+3. [How npm handles the "scripts" field](https://docs.npmjs.com/misc/scripts)
 
 ### Koajs
 
