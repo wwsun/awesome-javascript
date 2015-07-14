@@ -75,6 +75,7 @@ Tutorial
 
 Reading 
 
+1. PPT：[JavaScript 模块化七日谈](http://huangxuan.me/js-module-7day/#/)
 1. [从零开始实现一个JavaScript模块化加载器](http://wwsun.me/posts/creating-javascript-modules-loader.html)
 2. [Eloquent JavaScript, chapter 10, Modules](http://eloquentjavascript.net/10_modules.html)
 3. [详解JavaScript模块化开发](http://segmentfault.com/a/1190000000733959)
@@ -116,6 +117,7 @@ Reading
 
 1. Online Book: [React and Webpack](http://survivejs.com/webpack_react/introduction/)
 2. [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
+3. [ReactJS傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19896745)
 2. [React: Create maintainable, high-performance UI components](http://www.ibm.com/developerworks/library/wa-react-intro/)
 3. [Navigating the React Ecosystem](http://www.toptal.com/react/navigating-the-react-ecosystem)
 4. [Flux: An Application Architecture for React](https://facebook.github.io/react/blog/2014/05/06/flux.html)
@@ -126,7 +128,14 @@ Reading
 12. [An opinionated guide to React.js best practices and conventions](https://web-design-weekly.com/2015/01/29/opinionated-guide-react-js-best-practices-conventions/)
 13. [Best practices for building large React applications](http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications)
 14. [From AngularJS to React: The Isomorphic Way](http://blog.risingstack.com/from-angularjs-to-react-the-isomorphic-way/)
+15. [Flux傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243)
+16. [结合React, Flux & WebComponents](http://zhuanlan.zhihu.com/FrontendMagazine/19906158)
 
+InfoQ: React-in-depth
+
+1. [深入浅出React.js（一）简介](http://www.infoq.com/cn/articles/react-art-of-simplity)
+2. [深入浅出React.js（二）WebPack](http://www.infoq.com/cn/articles/react-and-webpack)
+3. [深入浅出React.js（三）JSX和组件](http://www.infoq.com/cn/articles/react-jsx-and-component)
 
 Libraies
 
@@ -252,6 +261,10 @@ Module `fs`
 Module `path`
 
 1. [path模块简介](http://javascript.ruanyifeng.com/nodejs/path.html)
+
+Module `events`
+
+1. [深入浅出Node.js（四）：Node.js的事件机制](http://www.infoq.com/cn/articles/tyq-nodejs-event/)
 
 
 ### NPM
