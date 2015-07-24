@@ -89,6 +89,7 @@ Reading
 11. [前端模块及依赖管理的新选择：Browserify](http://segmentfault.com/a/1190000002941361)
 12. [Browserify Handbook](https://github.com/substack/browserify-handbook)
 13. [前端工程与模块化框架](http://div.io/topic/439)
+14. [前端模块化开发那点事](https://github.com/seajs/seajs/issues/588)
 
 ### Design Patterns
 
@@ -128,14 +129,21 @@ Reading
 12. [An opinionated guide to React.js best practices and conventions](https://web-design-weekly.com/2015/01/29/opinionated-guide-react-js-best-practices-conventions/)
 13. [Best practices for building large React applications](http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications)
 14. [From AngularJS to React: The Isomorphic Way](http://blog.risingstack.com/from-angularjs-to-react-the-isomorphic-way/)
-15. [Flux傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243)
-16. [结合React, Flux & WebComponents](http://zhuanlan.zhihu.com/FrontendMagazine/19906158)
 
 InfoQ: React-in-depth
 
 1. [深入浅出React.js（一）简介](http://www.infoq.com/cn/articles/react-art-of-simplity)
 2. [深入浅出React.js（二）WebPack](http://www.infoq.com/cn/articles/react-and-webpack)
 3. [深入浅出React.js（三）JSX和组件](http://www.infoq.com/cn/articles/react-jsx-and-component)
+
+Flux
+
+1. [Flux傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243)
+2. [What is the Flux Application Architecture?](https://medium.com/brigade-engineering/what-is-the-flux-application-architecture-b57ebca85b9e)
+2. [结合React, Flux & WebComponents](http://zhuanlan.zhihu.com/FrontendMagazine/19906158)
+3. [Flux solutions compared by example](http://pixelhunter.me/post/110248593059/flux-solutions-compared-by-example)
+4. [Beyond the to-do app: writing complex applications using Flux & ReactJS](https://madebymany.com/blog/beyond-the-to-do-app-writing-complex-applications-using-flux-react-js)
+5. [Flux React Router Example](https://github.com/gaearon/flux-react-router-example)
 
 Libraies
 
@@ -155,11 +163,17 @@ Tutorial
 4. [React with WebPack - part 1](http://jslog.com/2014/10/02/react-with-webpack-part-1/)
 4. [基于ES6，使用React、Webpack、Babel构建模块化JavaScript应用](http://www.csdn.net/article/2015-05-24/2824757-building-modular-javascript-applications-in-es6-with-react-webpack-and-babel)
 
+### Isomorphic JavaScript
+
+1. PPT: [Going Isomorphic with React](http://bensmithett.github.io/going-isomorphic-with-react)
+2. [Isomorphic JavaScript: The Future of Web Apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
+2. [在服务器端渲染React组件](http://www.nodeclass.com/articles/79208)
+2. [Serverside Reat Rendering: Isomorhpic JavaScript with ReactJS + Node](https://reactjsnews.com/isomorphic-javascript-with-react-node/)
+3. [使用ReactJS + Node实现服务器端响应渲染](http://www.nodeclass.com/articles/79208)
+
 ### Others
 
 1. [跟 Web Components 打个啵](http://segmentfault.com/a/1190000002931974)
-2. [Isomorphic JavaScript: The Future of Web Apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
-
 
 ## ECMAScript 6
 
@@ -286,6 +300,12 @@ Module `events`
 6. [Kick-Off-Koa](https://github.com/koajs/kick-off-koa) - An intro to koa via a set of self-guided workshops
 7. [Workshop](https://github.com/koajs/workshop) - A workshop to learn the the basics of koa, Express's spiritual successor
 8. [Koajs quick start guide](http://knowthen.com/episode-3-koajs-quickstart-guide/)
+
+### Node with MySql
+
+1. Github: [node-mysql](https://github.com/felixge/node-mysql)
+2. [Node.js MySql Tutorial](https://codeforgeek.com/2015/01/nodejs-mysql-tutorial/)
+3. sitepoint: [Using MySql with Node.js & the node-mysql JavaScript Client](http://www.sitepoint.com/using-node-mysql-javascript-client/)
 
 ## Template Language
 
