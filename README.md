@@ -129,6 +129,7 @@ Reading
 12. [An opinionated guide to React.js best practices and conventions](https://web-design-weekly.com/2015/01/29/opinionated-guide-react-js-best-practices-conventions/)
 13. [Best practices for building large React applications](http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications)
 14. [From AngularJS to React: The Isomorphic Way](http://blog.risingstack.com/from-angularjs-to-react-the-isomorphic-way/)
+15. [React组件生命周期](http://fraserxu.me/2014/08/31/react-component-lifecycle/)
 
 InfoQ: React-in-depth
 
@@ -170,6 +171,7 @@ Tutorial
 2. [在服务器端渲染React组件](http://www.nodeclass.com/articles/79208)
 2. [Serverside Reat Rendering: Isomorhpic JavaScript with ReactJS + Node](https://reactjsnews.com/isomorphic-javascript-with-react-node/)
 3. [使用ReactJS + Node实现服务器端响应渲染](http://www.nodeclass.com/articles/79208)
+4. [Creating Isomorphic Apps with Node.js, React, and Express](http://www.sitepoint.com/creating-isomorphic-apps-node-js-react-express)
 
 ### Others
 
@@ -184,7 +186,7 @@ Tutorial
 2. [Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
 3. InfoQ专栏：[深入浅出ES6(更新中)](http://www.infoq.com/cn/es6-in-depth/)
 4. Mozilla: [ES6 in Depth](https://hacks.mozilla.org/category/es6-in-depth/https:/hacks.mozilla.org/category/es6-in-depth/)
-
+5. [Gettting started with ECMAScript](http://www.2ality.com/2015/08/getting-started-es6.html)
 
 ### Speech
 
@@ -256,6 +258,7 @@ Tutorial
 9. Online Book: [stream-book](https://github.com/substack/stream-handbook), teach you how to write node.js programs with streams
 10. [GraphQL Overview - Getting Started with GraphQL and Node.js](http://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/)
 11. Reading:[ Building With Node.js At eBay](https://www.talentbuddy.co/blog/building-with-node-js-at-ebay/)
+12. [Building a GraphQL Server with Node.js and SQL](https://www.reindex.io/blog/building-a-graphql-server-with-node-js-and-sql)
 
 ### Node.js Tutorial
 
