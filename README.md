@@ -2,7 +2,7 @@
 
 [JavaScript](http://javascript.crockford.com/zh/javascript.html)是一个仅在一周就被发明出来的小玩意，所以，它有着有多的缺陷，即使是这样，它已经存在了20年，全世界几乎每台电脑都至少装有一个JavaScript解释器，况且今天这个当初的小玩意的目标是编写大型的企业应用。如果你对JavaScript的理解仅限于DOM操纵，页面动画，jQuery等等，本列表将为你展现JavaScript的更多的令人震撼的功能。
 
-这份列表是一些优秀的网络资源的汇总，部分资源可能需要翻墙（[梯子](http://honx.in/_VcwPo_iDBAmw9VUd)访问。本列表不追求大而全，而追求寻找那些对JavaScript中的某些知识点有着独到见解的网络资源，希望这些资料的汇集能够为您在寻找类似资料的时候带来一点便利。
+这份列表是一些优秀的网络资源的汇总，部分资源可能需要翻墙（[梯子](http://honx.in/_VcwPo_iDBAmw9VUd)）访问。本列表不追求大而全，而追求寻找那些对JavaScript中的某些知识点有着独到见解的网络资源，希望这些资料的汇集能够为您在寻找类似资料的时候带来一点便利。
 
 ## JavaScript
 
@@ -129,7 +129,7 @@ Reading
 12. [An opinionated guide to React.js best practices and conventions](https://web-design-weekly.com/2015/01/29/opinionated-guide-react-js-best-practices-conventions/)
 13. [Best practices for building large React applications](http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications)
 14. [From AngularJS to React: The Isomorphic Way](http://blog.risingstack.com/from-angularjs-to-react-the-isomorphic-way/)
-15. [React组件生命周期](http://fraserxu.me/2014/08/31/react-component-lifecycle/)
+15. [Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
 
 InfoQ: React-in-depth
 
