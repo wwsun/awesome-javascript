@@ -19,8 +19,9 @@
 
 ### 入门书
 
-- JavaScript高级程序设计（第三版）
-- JavaScript语言精粹
+- [JavaScript DOM编程艺术](http://www.ituring.com.cn/book/42)
+- [JavaScript高级程序设计（第3版）](http://book.douban.com/subject/10546125/)
+- [JavaScript语言精粹](http://book.douban.com/subject/11874748/)
 - JavaScript权威指南
 - Eloquent JavaScript
 - JavaScript忍者禁术
@@ -28,8 +29,8 @@
 
 ### 源代码阅读
 
-- Backbone
-- Underscore
+- [Github: Backbone](https://github.com/jashkenas/backbone)
+- [Github: Underscore](https://github.com/jashkenas/underscore)
 
 ### 敏捷方法与工具
 
@@ -76,10 +77,11 @@ Promise
 ### 常用NPM工具模块
 
 1. JavaScript编写同步代码辅助工具包：[async](https://github.com/caolan/async)
-2. 配置管理工具包：[nconf](https://github.com/indexzero/nconf)
-3. 基于生成器的控制流管理工具包：[co](https://github.com/tj/co)
-4. 模块调试：[debug](https://www.npmjs.com/package/debug)
-5. 构建请求: [superagent](https://www.npmjs.com/package/superagent)
+1. 配置管理工具包：[nconf](https://github.com/indexzero/nconf)
+1. 基于生成器的控制流管理工具包：[co](https://github.com/tj/co)
+1. 模块调试：[debug](https://www.npmjs.com/package/debug)
+1. 构建请求: [superagent](https://www.npmjs.com/package/superagent)
+1. 辅助测试工具：[Sinon.js](http://sinonjs.org/)
 
 ## 开发工具和库
 
@@ -89,6 +91,10 @@ Promise
 2. Grunt
 3. NPM
 4. Broccoli
+
+### 前端工具
+
+1. 浏览器特性检测工具：[Modernizr](https://modernizr.com/)
 
 ### UI框架
 
@@ -103,13 +109,14 @@ Promise
 3. [Polymer - web components](https://www.polymer-project.org/1.0/)
 4. [Vue.js](http://cn.vuejs.org/)
 
-### 可视化
+### 可视化库
 
 1. [D3.js - Data Driven Documents](http://d3js.org/)
 2. [ECharts - 百度可视化工具包](http://echarts.baidu.com/)
 3. [HighCharts - 注重交互](http://www.highcharts.com/)
 4. [Chart.js - Simple, clean and engaging charts](http://www.chartjs.org/)
 5. [Angular Chart - AngularJS指令封装版Chart.js](http://jtblin.github.io/angular-chart.js/)
+6. [Epoch - for real-time visualizations](https://fastly.github.io/epoch/)
 
 ### JS库和框架
 
