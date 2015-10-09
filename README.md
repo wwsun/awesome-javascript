@@ -1,363 +1,152 @@
 # Awesome JavaScript
 
-[JavaScript](http://javascript.crockford.com/zh/javascript.html)是一个仅在一周就被发明出来的小玩意，所以，它有着有多的缺陷，即使是这样，它已经存在了20年，全世界几乎每台电脑都至少装有一个JavaScript解释器，况且今天这个当初的小玩意的目标是编写大型的企业应用。如果你对JavaScript的理解仅限于DOM操纵，页面动画，jQuery等等，本列表将为你展现JavaScript的更多的令人震撼的功能。
+[JavaScript](http://javascript.crockford.com/zh/javascript.html)是一个仅在一周就被发明出来的小玩意，
+所以，它有着有多的缺陷，即使是这样，它已经存在了20年，全世界几乎每台电脑都至少装有一个JavaScript解释器，
+况且今天这个当初的小玩意的目标是编写大型的企业应用。如果你对JavaScript的理解仅限于DOM操纵，页面动画，jQuery等等，
+本列表将为你展现JavaScript的更多的令人震撼的功能。
 
-这份列表是一些优秀的网络资源的汇总，部分资源可能需要翻墙（[梯子](http://honx.in/_VcwPo_iDBAmw9VUd)）访问。本列表不追求大而全，而追求寻找那些对JavaScript中的某些知识点有着独到见解的网络资源，希望这些资料的汇集能够为您在寻找类似资料的时候带来一点便利。
+这份列表是一些优秀的网络资源的汇总。
 
-## JavaScript
+## 基础 
 
-### Books
+### 开发准备
 
-1. [Eloquent JavaScript Online Book](http://eloquentjavascript.net/)
-2. [Speaking JavaScript: An In-Depth Guide for Programmers](http://speakingjs.com/)
-2. [JavaScript高级程序设计，第三版](http://book.douban.com/subject/10546125/)
-3. [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
-4. [JavaScript精粹](https://www.safaribooksonline.com/library/view/javascript-the-good/9780596517748/)
-2. [阮一峰： JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
+1. 安装 [Node.js](https://nodejs.org/en/)
+2. 安装 [PhantomJS - 没有界面的浏览器](http://phantomjs.org/)
+3. 安装 [Python27](https://www.python.org/downloads/) (Node有些模块对Python有依赖)
+4. 安装 [Git](https://git-scm.com/)
+5. 编辑器 [WebStorm](https://www.jetbrains.com/webstorm/) 或 [Visual Studio Code](https://code.visualstudio.com/)
 
-### Readings
+### 入门书
 
-1. [同构JavaScript应用](http://isomorphic.net/)
-2. [知乎：大公司是如何开发和部署前端代码的](http://www.zhihu.com/question/20790576/answer/32602154)
-3. [Learn javascript in one picture](https://github.com/coodict/javascript-in-one-pic)
+- [JavaScript DOM编程艺术](http://www.ituring.com.cn/book/42)
+- [JavaScript高级程序设计（第3版）](http://book.douban.com/subject/10546125/)
+- [JavaScript语言精粹](http://book.douban.com/subject/11874748/)
+- JavaScript权威指南
+- Eloquent JavaScript
+- JavaScript忍者禁术
+- You Don't Know JS
 
-### Blogs
+### 源代码阅读
 
-1. [@ality - JavaScript and more](http://www.2ality.com/)
-2. [Blog: Ariya Hidayat](http://ariya.ofilabs.com/)
-3. [Code as Craft](https://codeascraft.com/)
+- [Github: Backbone](https://github.com/jashkenas/backbone)
+- [Github: Underscore](https://github.com/jashkenas/underscore)
 
-### Abstract Syntax Tree
+### 敏捷方法与工具
 
-Basic Knowledge
+持续集成与部署
 
-1. 美团：[抽象语法树在JavaScript中的应用](http://tech.meituan.com/abstract-syntax-tree.html)
-2. [轻松搞定JavaScript预解析机制](http://www.cnblogs.com/ivangel/p/3694694.html)
-2. [JavaScript编译运行原理](http://www.chenjunxyf.me/javascriptjie-xi-yun-xing-ji-zhi/)
-3. PPT： [Building JavaScript Tools](http://gregfranko.com/building-javascript-tools-talk)
-3. SlideShare: [JavaScript: Abstract Syntax Tree](http://www.slideshare.net/RReverser/speaker-presentation2)
-4. SlideShare: [Esprima, what is that](http://www.slideshare.net/abhijeetkpawar/esprima-what-is-that)
+1. [Continuous Delivery vs Continuous Deployment vs Continuous Integration - Wait huh?](http://blog.assembla.com/assemblablog/tabid/12618/bid/92411/Continuous-Delivery-vs-Continuous-Deployment-vs-Continuous-Integration-Wait-huh.aspx)
+2. [Jenkins：开源的可扩展持续集成服务器](http://jenkins-ci.org/)
+3. [CircleCI：Ship better code, faster.](https://circleci.com/)
+4. [Travis CI: 一个针对开源社区的持续集成托管服务](https://travis-ci.org/)
 
-Tools
+其他
 
-1. [SpiderMonkey: Reflect.parse](https://developer.mozilla.org/zh-CN/docs/Mozilla/Projects/SpiderMonkey/Parser_API) - Mozilla's Parser API
-2. [Esprima: most popular ECMAScript parser in JS](http://esprima.org/index.html)
-3. [Acorn](https://github.com/marijnh/acorn) - faster alternative ECMAScript parser in JS
-4. [UglifyJS](http://lisperator.net/uglifyjs/ast) - has own parser with custom AST format
-5. [Estraverse](https://github.com/estools/estraverse) - taraverse and update the AST
-6. [Escodegen](https://github.com/estools/escodegen) - generates code from an AST
+1. Scrum: [Scrum Guide](http://www.scrumguides.org/)
+2. TDD: Test-Driven Development by Example (book)
+3. Pair Programming
 
-> Esprima解析得到的抽象语法树AST遵循SpiderMonkey的[API](https://developer.mozilla.org/zh-CN/docs/Mozilla/Projects/SpiderMonkey/Parser_API)。
+### JavaScript
 
-Helpers
+Promise
 
-1. [Esprima Online Parser](http://esprima.org/demo/parse.html)
-2. [ESLint](http://eslint.org/) - The pluggable linting utility for JavaScript and JSX
-3. [aster](http://asterjs.github.io/aster/) - AST-based code builder
+1. bluebrid
+2. q
 
-Tutorial
+### ES6
 
-1. [Esprima tutorial](http://sevinf.github.io/blog/2012/09/29/esprima-tutorial/)
-2. [Fun with Esprima and Static Analysis](http://tobyho.com/2013/12/02/fun-with-esprima/)
-3. [Parsing and modifying JavaScript code with Esprima and Scodegen](http://www.mattzeunert.com/2013/12/30/parsing-and-modifying-Javascript-code-with-esprima-and-escodegen.html)
+## Node.js [Detail](./sections/React/)
 
-### Functions
+### 最佳实践
 
-1. [JavaScript Immediately-Invoked Function Expression](http://benalman.com/news/2010/11/immediately-invoked-function-expression/#iife)
+1. [Node.js最佳实践：第一部分](http://wwsun.me/posts/node-best-practices.html)
+2. Node.js最佳实践：第二部分
 
-### Promise
+### 风格指南
 
-1. Browser-side: [bluebird, a full featured promise library](https://github.com/petkaantonov/bluebird)
-2. Nodejs-side: [co - he ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)](https://github.com/tj/co)
+1. [Node.js风格指南（中文）](https://github.com/wwsun/node-style-guide)
 
+### 常用的Node Web框架
 
-### Modular
+1. 传统的Node框架：[Express](http://expressjs.com/)
+2. 下一代Node.js框架：[Koa](http://koajs.com/)
+3. 专注于构建可重用的应用逻辑：[Hapi](http://hapijs.com/)
+4. [其他Node框架](http://nodeframework.com/index.html#home)
 
-Reading 
+### 常用NPM工具模块
 
-1. PPT：[JavaScript 模块化七日谈](http://huangxuan.me/js-module-7day/#/)
-1. [从零开始实现一个JavaScript模块化加载器](http://wwsun.me/posts/creating-javascript-modules-loader.html)
-2. [Eloquent JavaScript, chapter 10, Modules](http://eloquentjavascript.net/10_modules.html)
-3. [详解JavaScript模块化开发](http://segmentfault.com/a/1190000000733959)
-4. [图文：SeaJS与RequireJS最大的区别](http://www.douban.com/note/283566440/)
-5. [模块化开发，SeaJS简单总结](http://www.cnblogs.com/Ivangel/p/3824541.html)
-4. [Why AMD?](http://requirejs.org/docs/whyamd.html)
-6. [百度EFE：玩转AMD](http://efe.baidu.com/blog/dissecting-amd-preface/)
-7. [异步模块定义AMD API中文版](https://github.com/amdjs/amdjs-api/wiki/AMD-(%E4%B8%AD%E6%96%87%E7%89%88))
-8. [CommonJS规范 中文版](http://javascript.ruanyifeng.com/nodejs/commonjs.html)
-9. [ RequireJS in Node](http://requirejs.org/docs/node.html)
-11. [前端模块及依赖管理的新选择：Browserify](http://segmentfault.com/a/1190000002941361)
-12. [Browserify Handbook](https://github.com/substack/browserify-handbook)
-13. [前端工程与模块化框架](http://div.io/topic/439)
-14. [前端模块化开发那点事](https://github.com/seajs/seajs/issues/588)
+1. JavaScript编写同步代码辅助工具包：[async](https://github.com/caolan/async)
+1. 配置管理工具包：[nconf](https://github.com/indexzero/nconf)
+1. 基于生成器的控制流管理工具包：[co](https://github.com/tj/co)
+1. 模块调试：[debug](https://www.npmjs.com/package/debug)
+1. 构建请求: [superagent](https://www.npmjs.com/package/superagent)
+1. 辅助测试工具：[Sinon.js](http://sinonjs.org/)
 
-### Design Patterns
+## 开发工具和库
 
-1. [极客学院：学用JavaScript设计模式](http://wiki.jikexueyuan.com/project/javascript-design-patterns/overwise.html)
-2. [什么是掺合模式（Mixin）](http://www.cnblogs.com/snandy/archive/2013/05/24/3086663.html)
+### 自动化工具
 
-Tutorial
+1. Gulp
+2. Grunt
+3. NPM
+4. Broccoli
 
-1. [Understanding RequireJS for Effective JavaScript Module Loading](http://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/)
-2. [Writing Modular JavaScript With AMD, CommonJS & ES Harmony](http://addyosmani.com/writing-modular-js/)
+### 前端工具
 
-### ES 5
+1. 浏览器特性检测工具：[Modernizr](https://modernizr.com/)
 
-1. [Object.create()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
-2. [Object.defineProperty](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
-3. [getter](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/get)
-4. [setter](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/set)
-5. [严格模式](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Strict_mode)
-6. [JSON](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON)
-7. [Array.prototype.map()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-8. [Array.prototype.filter()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-
-### React.js
-
-Reading
+### UI框架
 
-1. Online Book: [React and Webpack](http://survivejs.com/webpack_react/introduction/)
-2. [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
-3. [ReactJS傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19896745)
-2. [React: Create maintainable, high-performance UI components](http://www.ibm.com/developerworks/library/wa-react-intro/)
-3. [Navigating the React Ecosystem](http://www.toptal.com/react/navigating-the-react-ecosystem)
-4. [Flux: An Application Architecture for React](https://facebook.github.io/react/blog/2014/05/06/flux.html)
-6. [Smart and Dumb Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
-8. [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005)
-10. [React 入门教程](http://hulufei.gitbooks.io/react-tutorial/content/jsx-spread-attributes.html)
-11. [Thinking in React](http://hulufei.gitbooks.io/react-tutorial/content/jsx-spread-attributes.html)
-12. [An opinionated guide to React.js best practices and conventions](https://web-design-weekly.com/2015/01/29/opinionated-guide-react-js-best-practices-conventions/)
-13. [Best practices for building large React applications](http://blog.siftscience.com/blog/2015/best-practices-for-building-large-react-applications)
-14. [From AngularJS to React: The Isomorphic Way](http://blog.risingstack.com/from-angularjs-to-react-the-isomorphic-way/)
-15. [Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
-
-InfoQ: React-in-depth
-
-1. [深入浅出React.js（一）简介](http://www.infoq.com/cn/articles/react-art-of-simplity)
-2. [深入浅出React.js（二）WebPack](http://www.infoq.com/cn/articles/react-and-webpack)
-3. [深入浅出React.js（三）JSX和组件](http://www.infoq.com/cn/articles/react-jsx-and-component)
-
-Flux
-
-1. [Flux傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19900243)
-2. [What is the Flux Application Architecture?](https://medium.com/brigade-engineering/what-is-the-flux-application-architecture-b57ebca85b9e)
-2. [结合React, Flux & WebComponents](http://zhuanlan.zhihu.com/FrontendMagazine/19906158)
-3. [Flux solutions compared by example](http://pixelhunter.me/post/110248593059/flux-solutions-compared-by-example)
-4. [Beyond the to-do app: writing complex applications using Flux & ReactJS](https://madebymany.com/blog/beyond-the-to-do-app-writing-complex-applications-using-flux-react-js)
-5. [Flux React Router Example](https://github.com/gaearon/flux-react-router-example)
-
-Libraies
-
-1. [React: complementatry tools](https://github.com/facebook/react/wiki/Complementary-Tools#full-stack-starter-kits)
-2. [React-Bootstrap: css framework ](http://react-bootstrap.github.io/)
-3. [React-Router: routing in react app](http://rackt.github.io/react-router/)
-4. [formsy-react: a form input builder and validator for React JS](https://github.com/christianalfoni/formsy-react)
-
-Tutorial
-
-1. [React.js Introduction For People Who Know Just Enough jQuery To Get By](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
-2. [Building The Facebook News Feed With Relay](http://facebook.github.io/react/blog/2015/03/19/building-the-facebook-news-feed-with-relay.html)
-2. [React.js Starter Kit](http://facebook.github.io/react/downloads.html)
-3. [Flux Quick Start: manage data and state for react app](https://facebook.github.io/flux/docs/overview.html)
-2. [Getting started with Facebook's React.js](https://scotch.io/courses/getting-started-with-facebooks-react-js)
-3. Youtube: [Trying webpack with React.js](https://www.youtube.com/watch?v=Ob1ruoUnc58)
-4. [React with WebPack - part 1](http://jslog.com/2014/10/02/react-with-webpack-part-1/)
-4. [基于ES6，使用React、Webpack、Babel构建模块化JavaScript应用](http://www.csdn.net/article/2015-05-24/2824757-building-modular-javascript-applications-in-es6-with-react-webpack-and-babel)
-
-### Isomorphic JavaScript
-
-1. PPT: [Going Isomorphic with React](http://bensmithett.github.io/going-isomorphic-with-react)
-2. [Isomorphic JavaScript: The Future of Web Apps](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)
-2. [在服务器端渲染React组件](http://www.nodeclass.com/articles/79208)
-2. [Serverside Reat Rendering: Isomorhpic JavaScript with ReactJS + Node](https://reactjsnews.com/isomorphic-javascript-with-react-node/)
-3. [使用ReactJS + Node实现服务器端响应渲染](http://www.nodeclass.com/articles/79208)
-4. [Creating Isomorphic Apps with Node.js, React, and Express](http://www.sitepoint.com/creating-isomorphic-apps-node-js-react-express)
-
-### Others
-
-1. [跟 Web Components 打个啵](http://segmentfault.com/a/1190000002931974)
-
-## ECMAScript 6
-
-### Reading
-
-1. [Learn ES2015, a detailed overview of ECMASCRIPT 6 features](https://babeljs.io/docs/learn-es2015/)
-2. [阮一峰： ECMAScript 6入门](http://es6.ruanyifeng.com/#docs/intro)
-2. [Exploring ES6: Upgrade to the next version of JavaScript](http://exploringjs.com/)
-3. InfoQ专栏：[深入浅出ES6(更新中)](http://www.infoq.com/cn/es6-in-depth/)
-4. Mozilla: [ES6 in Depth](https://hacks.mozilla.org/category/es6-in-depth/https:/hacks.mozilla.org/category/es6-in-depth/)
-5. [Gettting started with ECMAScript](http://www.2ality.com/2015/08/getting-started-es6.html)
-
-### Speech
-
-1. Youtube: [John Paul - ES6 Right Now](https://www.youtube.com/watch?v=rwm5JLqCpdk)
-2. Youtube: [PeterHallam & AlexRussell: Traceur: JS to JS compiler](https://www.youtube.com/watch?feature=player_detailpage&v=ntDZa7ekFEA)
-
-### Tutorial
-
-1. [Using the ES6 transpiler Babel on Node.js](http://www.2ality.com/2015/03/babel-on-node.html)
-2. [Traceur, Gulp, Browserify and ES6](http://www.mattgreer.org/articles/traceur-gulp-browserify-es6/)
-
-### Libraries
-
-1. Github: [es6-shim, ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines](https://github.com/paulmillr/es6-shim/)
-2. [Babel](https://babeljs.io/) is a JavaScript compiler.
-3. Github: [Traceur, a JavaScript.next-to-JavaScript-of-today compiler](https://github.com/google/traceur-compiler)
-4. [Traceur REPL](https://google.github.io/traceur-compiler/demo/repl.html)
-5. [Babel REPL](http://babeljs.io/repl/)
-4. Github: [grunt-traceur](https://github.com/aaronfrost/grunt-traceur)
-5. Github: [gulp-traceur](https://github.com/sindresorhus/gulp-traceur)
-6. Github: [broccoli-traceur](https://github.com/sindresorhus/broccoli-traceur)
-7. Github: [es6ify](https://github.com/thlorenz/es6ify)
-
-### Questions
-
-1. StackoverFlow: [Differences between Babel and Traceur](http://stackoverflow.com/questions/28447132/should-i-use-babel-or-google-traceur-to-compile-my-es6-code)
-
-### ES6 Iterators/Generator
-
-1. [Iterators gonna iterate](http://www.sitepoint.com/ecmascript-2015-generators-and-iterators/)
-2. Youtube: [ES6 Generator Tutorial](https://www.youtube.com/watch?v=QO07THdLWQo)
-2. [The Basics Of ES6 Generators](http://davidwalsh.name/es6-generators)
-3. [学习ES6生成器](http://www.toobug.net/article/learning_es6_generator.html)
-4. Workshop: [Learn Generators](https://github.com/isRuslan/learn-generators)
-5. ECMAScript 2015: [Generators and Iterators](http://www.sitepoint.com/ecmascript-2015-generators-and-iterators/)
-
-### ES6 Promise
-
-1. [谈谈ES6的Promise对象](http://segmentfault.com/a/1190000002928371)
-2. [异步流程控制：7 行代码学会 co 模块](http://segmentfault.com/a/1190000002732081)
-
-
-## WebSocket
-
-### Reading
-
-1. Book: [The definitive guide to HTML5 WebSocket](http://www.apress.com/9781430247401)
-2. [Stream Updates with Server-Sent Events](http://www.html5rocks.com/en/tutorials/eventsource/basics/)
-
-### Tutorial
-
-1. [Real time online activity monitor example with node.js and WebSocket](https://www.new-bamboo.co.uk/blog/2009/12/08/real-time-online-activity-monitor-example-with-node-js-and-websocket/)
-
-## Node.js
-
-### Reading
-
-1. Book: [Node.js In Action](http://www.manning.com/cantelon/)
-2. [Node.js概述](http://javascript.ruanyifeng.com/nodejs/basic.html)
-3. [List: Awesome nodejs](https://github.com/vndmtrx/awesome-nodejs)
-3. [Eleoquent JavaScript, chapter 20, Node.js](http://www.manning.com/cantelon/)
-4. [七天学会Node.js](http://nqdeng.github.io/7-days-nodejs/?spm=0.0.0.0.VHCNjm)
-4. [Node.js Manual & Documentation](https://nodejs.org/api/modules.html)
-5. [Node.js Process对象](http://javascript.ruanyifeng.com/nodejs/process.html)
-5. [Node编码规范](http://www.ituring.com.cn/article/197990)
-6. [ES6 on node.js](http://h3manth.com/new/blog/2013/es6-on-nodejs/)
-7. [美团酒店Node全栈开发实践](http://tech.meituan.com/node-fullstack-development-practice.html)
-8. 阮一峰:[require() 源码解读](http://www.techug.com/require)
-9. Online Book: [stream-book](https://github.com/substack/stream-handbook), teach you how to write node.js programs with streams
-10. [GraphQL Overview - Getting Started with GraphQL and Node.js](http://blog.risingstack.com/graphql-overview-getting-started-with-graphql-and-nodejs/)
-11. Reading:[ Building With Node.js At eBay](https://www.talentbuddy.co/blog/building-with-node-js-at-ebay/)
-12. [Building a GraphQL Server with Node.js and SQL](https://www.reindex.io/blog/building-a-graphql-server-with-node-js-and-sql)
-
-### Node.js Tutorial
-
-1. [Creating and Publishing Node.js Modules](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/)
-2. [Node.js Tutorial Collection](http://docs.nodejitsu.com/)
-3. [NodeSchool](http://nodeschool.io/)
-
-### Node.js Modules
-
-Module `fs`
-
-1. [fs模块简介](http://javascript.ruanyifeng.com/nodejs/fs.html)
-2. [How do I write files in node.js?](http://docs.nodejitsu.com/articles/file-system/how-to-write-files-in-nodejs)
-2. [Create Simple Text File in Node.js Using 'fs' Module](http://www.c-sharpcorner.com/UploadFile/dacca2/node-js-in-action-create-simple-text-file-in-node-js-using/)
-3. [Making directory along with missing parents in Node.js](http://lmws.net/making-directory-along-with-missing-parents-in-node-js)
-
-Module `path`
-
-1. [path模块简介](http://javascript.ruanyifeng.com/nodejs/path.html)
-
-Module `events`
-
-1. [深入浅出Node.js（四）：Node.js的事件机制](http://www.infoq.com/cn/articles/tyq-nodejs-event/)
-
-
-### NPM
-
-1. [How to Build an npm Package](http://blog.teamtreehouse.com/build-npm-package)
-2. [A Facade for Tooling with NPM Package Scripts](https://bocoup.com/weblog/a-facade-for-tooling-with-npm-scripts/)
-2. [How to Use npm as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
-3. [How npm handles the "scripts" field](https://docs.npmjs.com/misc/scripts)
-
-### Koajs
-
-1. [Koajs - 下一代Node.js Web框架](http://koa.rednode.cn/)
-2. [Koa中文文档](https://github.com/turingou/koa-guide)
-2. PPT: [Co and Koa Talk](http://deadhorse.me/co-and-koa-talk/)
-2. [Getting Started With Koajs](http://h3manth.com/new/blog/2014/getting-started-with-koajs/)
-3. [Koajs开发最佳实践](http://www.html-js.com/article/Koa-small-classroom-Koajs-development-best-practices)
-4. [Koajs中间件开发最佳实践和应用架构建议](http://koa.rednode.cn/#guide)
-5. [Why you should and shouln't use Koa](http://www.jongleberry.com/why-you-should-and-shouldnt-use-koa.html)
-6. [Kick-Off-Koa](https://github.com/koajs/kick-off-koa) - An intro to koa via a set of self-guided workshops
-7. [Workshop](https://github.com/koajs/workshop) - A workshop to learn the the basics of koa, Express's spiritual successor
-8. [Koajs quick start guide](http://knowthen.com/episode-3-koajs-quickstart-guide/)
-
-### Node with MySql
-
-1. Github: [node-mysql](https://github.com/felixge/node-mysql)
-2. [Node.js MySql Tutorial](https://codeforgeek.com/2015/01/nodejs-mysql-tutorial/)
-3. sitepoint: [Using MySql with Node.js & the node-mysql JavaScript Client](http://www.sitepoint.com/using-node-mysql-javascript-client/)
-
-## Template Language
-
-### Nunjucks
-
-1. [Nunjucks 快速上手](http://mozilla.github.io/nunjucks/cn/getting-started.html)
-2. doc: [Nunjucks 可用模版列表](http://mozilla.github.io/nunjucks/cn/templating.html)
-
-### Jade
-
-1. Jade - a Node Template Engine, [Language Reference](http://jade-lang.com/reference/)
-2. [Jade Syntax Documentation](http://naltatis.github.io/jade-syntax-docs/)
-
-## Tools
-
-### Editor
-
-1. WebStrom
-2. Visual Studio Code
-3. Visual Studio Community
-
-Tutorial
-
-1. [Hello Visual Studio Code (with Node.js)](https://channel9.msdn.com/Blogs/cloud-with-a-silver-lining/hello-visual-studio-code-nodejs)
-2. John Papa: [Debugging with Visual Studio Code](https://channel9.msdn.com/Blogs/cloud-with-a-silver-lining/hello-visual-studio-code-nodejs)
-
-### Build
-
-Build Tools
-
-1. [Grunt](http://gruntjs.com/)
-2. [Gulp, the streaming building system](http://gulpjs.com/)
-3. [Browserify](http://browserify.org/)
-4. [WebPack](http://webpack.github.io)
-
-Reading
-
-1. PPT: [Build Wars](http://markdalgleish.github.io/presentation-build-wars-gulp-vs-grunt/#1)
-2. [The State of JS Build Tools 2015](http://www.walkercoderanger.com/blog/2015/06/state-of-js-build-tools-2015)
-2. [Gulp vs Grunt. Why one? Why the Other?](https://medium.com/@preslavrachev/gulp-vs-grunt-why-one-why-the-other-f5d3b398edc4)
-3. [Grunt vs Gulp - Beyond the Numbers](http://jaysoo.ca/2014/01/27/gruntjs-vs-gulpjs/)
-2. 腾讯：[Browserify运行原理分析](http://www.alloyteam.com/2014/10/browserify-yun-xing-yuan-li-fen-xi/)
-2. [Getting started with webpack](http://webpack.github.io/docs/tutorials/getting-started/)
-3. [WebPack怎么用](http://segmentfault.com/a/1190000002552008)
-4. github: [webpack-howto: a simple cookbook](https://github.com/petehunt/webpack-howto)
-
-### Git/ Github/ Gitlab
-
-> If you use Github, just use Github for Windows;
-> If you use Gitlab in a internal network, you can use TortoiseGit as a GUI tool for git.
-
-1. Youtube: [TortoiseGit Tutorial](https://www.youtube.com/watch?v=pp2S2lHjzZI)
+1. [Bootstrap - 最常用的UI框架](http://getbootstrap.com/)
+2. [Semantic UI - Human-friendly](http://semantic-ui.com/)
+3. [Foundation - Most advanced responsive FE framework](http://foundation.zurb.com/)
+
+### 前端框架
+
+1. [React - UI层库，组件驱动开发](http://facebook.github.io/react/)
+2. [AngularJS - MVVM](https://angularjs.org/)
+3. [Polymer - web components](https://www.polymer-project.org/1.0/)
+4. [Vue.js](http://cn.vuejs.org/)
+
+### 可视化库
+
+1. [D3.js - Data Driven Documents](http://d3js.org/)
+2. [ECharts - 百度可视化工具包](http://echarts.baidu.com/)
+3. [HighCharts - 注重交互](http://www.highcharts.com/)
+4. [Chart.js - Simple, clean and engaging charts](http://www.chartjs.org/)
+5. [Angular Chart - AngularJS指令封装版Chart.js](http://jtblin.github.io/angular-chart.js/)
+6. [Epoch - for real-time visualizations](https://fastly.github.io/epoch/)
+
+### JS库和框架
+
+1. jQuery
+2. Underscore
+3. Backbone
+4. AngularJS
+5. Ember
+6. React
+7. Polymer
+8. Knockout
+
+### 模块化加载器
+
+1. Browserify
+2. RequireJS
+3. webpack
+4. JSPM
+
+### JS单元测试
+
+1. Mocha
+2. Jasmine
+3. QUnit
+4. Tape
+5. Jest
+6. Karma
+
+### 其他工具
+
+1. Bower
+2. Yeoman
+3. Ender
