@@ -7,7 +7,7 @@
 
 这份列表是一些优秀的网络资源的汇总。
 
-## 基础
+## 基础 
 
 ### 开发准备
 
@@ -56,7 +56,7 @@ Promise
 
 ### ES6
 
-## Node.js
+## Node.js [Detail](./sections/React/)
 
 ### 最佳实践
 

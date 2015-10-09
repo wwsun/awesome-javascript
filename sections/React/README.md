@@ -1,7 +1,17 @@
-# React.js
+# React.js学习路线图
 
-## Reading
+## 学习路线图
 
+1. 学习React基础知识
+1. 学习ES6基础知识，使用ES6来编写React
+1. 学习Webpack，使用Webpack来打包React代码
+1. 学习Flux，使用Flux来组织React数据流
+1. 学习Flux具体实现，例如Redux
+1. 学习React生态圈技术，来解决现实问题，例如路由、页面样式、同构等
+
+## 阅读材料
+
+1. Online Book: [React and Webpack Cookbook 中文版](https://fakefish.github.io/react-webpack-cookbook/index.html)
 1. Online Book: [React and Webpack](http://survivejs.com/webpack_react/introduction/)
 2. [颠覆式前端UI开发框架：React](http://www.infoq.com/cn/articles/subversion-front-end-ui-development-framework-react)
 3. [ReactJS傻瓜教程](http://zhuanlan.zhihu.com/FrontendMagazine/19896745)
