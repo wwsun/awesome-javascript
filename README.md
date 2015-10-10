@@ -5,9 +5,12 @@
 况且今天这个当初的小玩意的目标是编写大型的企业应用。如果你对JavaScript的理解仅限于DOM操纵，页面动画，jQuery等等，
 本列表将为你展现JavaScript的更多的令人震撼的功能。
 
-这份列表是一些优秀的网络资源的汇总。
+## 专题列表
 
-## 基础 
+- [React相关资源](./sections/React/)
+- [JavaScript语法解析](./sections/Ast/)
+
+## 基础
 
 ### 开发准备
 
@@ -56,7 +59,7 @@ Promise
 
 ### ES6
 
-## Node.js [Detail](./sections/React/)
+## Node.js
 
 ### 最佳实践
 
