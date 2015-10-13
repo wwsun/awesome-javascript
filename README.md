@@ -20,15 +20,17 @@
 4. 安装 [Git](https://git-scm.com/)
 5. 编辑器 [WebStorm](https://www.jetbrains.com/webstorm/) 或 [Visual Studio Code](https://code.visualstudio.com/)
 
-### 入门书
+### 推荐的书
 
 - [JavaScript DOM编程艺术](http://www.ituring.com.cn/book/42)
 - [JavaScript高级程序设计（第3版）](http://book.douban.com/subject/10546125/)
 - [JavaScript语言精粹](http://book.douban.com/subject/11874748/)
+- [Speaking JavaScript](http://speakingjs.com/es5/index.html)
 - JavaScript权威指南
 - Eloquent JavaScript
 - JavaScript忍者禁术
 - You Don't Know JS
+- [阮一峰：JavaScript标准参考教程](http://javascript.ruanyifeng.com/)
 
 ### 源代码阅读
 
@@ -37,34 +39,52 @@
 
 ### 敏捷方法与工具
 
-持续集成与部署
+1. 持续集成与部署
+	- [Continuous Delivery vs Continuous Deployment vs Continuous Integration - Wait huh?](http://blog.assembla.com/assemblablog/tabid/12618/bid/92411/Continuous-Delivery-vs-Continuous-Deployment-vs-Continuous-Integration-Wait-huh.aspx)
+	- [Jenkins：开源的可扩展持续集成服务器](http://jenkins-ci.org/)
+	- [CircleCI：Ship better code, faster.](https://circleci.com/)
+	- [Travis CI: 一个针对开源社区的持续集成托管服务](https://travis-ci.org/)
 
-1. [Continuous Delivery vs Continuous Deployment vs Continuous Integration - Wait huh?](http://blog.assembla.com/assemblablog/tabid/12618/bid/92411/Continuous-Delivery-vs-Continuous-Deployment-vs-Continuous-Integration-Wait-huh.aspx)
-2. [Jenkins：开源的可扩展持续集成服务器](http://jenkins-ci.org/)
-3. [CircleCI：Ship better code, faster.](https://circleci.com/)
-4. [Travis CI: 一个针对开源社区的持续集成托管服务](https://travis-ci.org/)
-
-其他
-
-1. Scrum: [Scrum Guide](http://www.scrumguides.org/)
-2. TDD: Test-Driven Development by Example (book)
-3. Pair Programming
+1. 敏捷相关的几个概念
+	- Scrum: [Scrum Guide](http://www.scrumguides.org/)
+	- TDD: Test-Driven Development by Example (book)
+	- Pair Programming
 
 ### JavaScript
 
-Promise
-
-1. bluebrid
-2. q
+1. [Promise](http://javascript.ruanyifeng.com/advanced/promise.html)
+	- Github: [bluebird](https://github.com/petkaantonov/bluebird)
+	- Github: [q](https://github.com/kriskowal/q)
+1. [JavaScript与有限状态机](http://javascript.ruanyifeng.com/advanced/fsm.html)
+1. [Fetch API](http://www.sitepoint.com/introduction-to-the-fetch-api/)
+	- Github: [fetch polyfill](https://github.com/github/fetch)
+1. [什么是shims和polyfills](http://speakingjs.com/es5/ch30.html#shim_vs_polyfill)
+1. [严格模式](http://javascript.ruanyifeng.com/advanced/strict.html)
+1. [ES5增加的新特性](http://speakingjs.com/es5/ch25.html)
+1. [ES6基本介绍](http://javascript.ruanyifeng.com/advanced/ecmascript6.html)
 
 ### ES6
 
+语法转换 ES6 to ES5
+
+1. [Babel](https://babeljs.io/) - 推荐！
+1. [Traceur](https://github.com/google/traceur-compiler)
+
+入门
+
+1. [Learn ES2015](https://babeljs.io/docs/learn-es2015/)
+
 ## Node.js
+
+### 图书
+
+1. [Node.js In Action](http://book.douban.com/subject/25870705/)
+1. [深入浅出Node.js](http://book.douban.com/subject/25768396/)
 
 ### 最佳实践
 
 1. [Node.js最佳实践：第一部分](http://wwsun.me/posts/node-best-practices.html)
-2. Node.js最佳实践：第二部分
+2. [Node.js最佳实践：第二部分](http://wwsun.github.io/posts/node-best-practices-2.html)
 
 ### 风格指南
 
@@ -88,68 +108,93 @@ Promise
 
 ## 开发工具和库
 
-### 自动化工具
+对于前端开发而言，如果你需要查找一些库或框架来帮你解决问题，
+下面两个网站可能会帮助你选择：
 
-1. Gulp
-2. Grunt
-3. NPM
-4. Broccoli
+1. [JavaScripting.com](http://www.javascripting.com/)
+1. [JavaScriptOO](http://www.javascriptoo.com/)
 
-### 前端工具
+借助上面的两个网站，你能够迅速的找到相关的工具。
+下面会继续列举一些常用的工具、库、或框架：
 
-1. 浏览器特性检测工具：[Modernizr](https://modernizr.com/)
+1. 自动构建
 
-### UI框架
+	- [Gulp](http://gulpjs.com/)
+	- [Grunt](http://gruntjs.com/)
 
-1. [Bootstrap - 最常用的UI框架](http://getbootstrap.com/)
-2. [Semantic UI - Human-friendly](http://semantic-ui.com/)
-3. [Foundation - Most advanced responsive FE framework](http://foundation.zurb.com/)
+1. 代码质量
 
-### 前端框架
+	- [JSLint](http://jslint.com/), by Dogulas Crockford
+	- [JSHint](http://jshint.com/), by Anton Kovalyov
+	- [ESLint](http://eslint.org/), by Nicholas Zaks
+	- [JSCS](http://jscs.info/)
 
-1. [React - UI层库，组件驱动开发](http://facebook.github.io/react/)
-2. [AngularJS - MVVM](https://angularjs.org/)
-3. [Polymer - web components](https://www.polymer-project.org/1.0/)
-4. [Vue.js](http://cn.vuejs.org/)
+1. 前端工具
 
-### 可视化库
+	- 浏览器特性检测工具：[Modernizr](https://modernizr.com/)
 
-1. [D3.js - Data Driven Documents](http://d3js.org/)
-2. [ECharts - 百度可视化工具包](http://echarts.baidu.com/)
-3. [HighCharts - 注重交互](http://www.highcharts.com/)
-4. [Chart.js - Simple, clean and engaging charts](http://www.chartjs.org/)
-5. [Angular Chart - AngularJS指令封装版Chart.js](http://jtblin.github.io/angular-chart.js/)
-6. [Epoch - for real-time visualizations](https://fastly.github.io/epoch/)
+1. 文档生成
+	
+	- [JSDoc](http://speakingjs.com/es5/ch29.html)
 
-### JS库和框架
+1. 工具库
 
-1. jQuery
-2. Underscore
-3. Backbone
-4. AngularJS
-5. Ember
-6. React
-7. Polymer
-8. Knockout
+	- 提供大量工具函数：[Underscore.js](http://underscorejs.org/)
+	- 工具函数库：[Lo-Dash](http://lodash.com/)
+	- 正则表达式库：[XRegExp](http://xregexp.com/)
 
-### 模块化加载器
+1. UI框架
 
-1. Browserify
-2. RequireJS
-3. webpack
-4. JSPM
+	- [Bootstrap - 最常用的UI框架](http://getbootstrap.com/)
+	- [Semantic UI - Human-friendly](http://semantic-ui.com/)
+	- [Foundation - Most advanced responsive FE framework](http://foundation.zurb.com/)
 
-### JS单元测试
+1. 前端框架
 
-1. Mocha
-2. Jasmine
-3. QUnit
-4. Tape
-5. Jest
-6. Karma
+	- [React - UI层库，组件驱动开发](http://facebook.github.io/react/)
+	- [AngularJS - MVVM](https://angularjs.org/)
+	- [Polymer - web components](https://www.polymer-project.org/1.0/)
+	- [Vue.js](http://cn.vuejs.org/)
 
-### 其他工具
+1. 可视化库
 
-1. Bower
-2. Yeoman
-3. Ender
+	- [D3.js - Data Driven Documents](http://d3js.org/)
+	- [ECharts - 百度可视化工具包](http://echarts.baidu.com/)
+	- [HighCharts - 注重交互](http://www.highcharts.com/)
+	- [Chart.js - Simple, clean and engaging charts](http://www.chartjs.org/)
+	- [Angular Chart - AngularJS指令封装版Chart.js](http://jtblin.github.io/angular-chart.js/)
+	- [Epoch - for real-time visualizations](https://fastly.github.io/epoch/)
+
+1. 模块系统和包管理器
+
+	- 模块系统
+		- CommonJS (Node, 同步加载)
+		- AMD：[RequireJS](http://requirejs.org/)(浏览器，异步加载)
+		- [ES6 Module](www.2ality.com/2014/09/es6-modules-final.html)
+	- 包管理器
+		- [npm](https://npmjs.org/)(Node包管理器)
+		- [Bower](http://bower.io/)（主要是前端资源包）
+		- [Browserify](http://browserify.org/)(将Npm包转为浏览器友好的)
+
+1. JS单元测试
+
+	- [Mocha](http://visionmedia.github.io/mocha/)
+	- [Jasmine](http://pivotal.github.io/jasmine/)
+	- QUnit
+	- Tape
+	- Jest
+	- Karma
+
+1. 前端资源CDN服务：
+	- [BootCDN](http://www.bootcdn.cn/)
+	- [360前端资源CDN服务](http://libs.useso.com/)
+	- [七牛前端资源CDN服务](http://www.staticfile.org/)
+
+## Future
+
+很遗憾，这里只能列举一些常用的资料，但幸运的是，互联网极大便利了我们获取信息的方式，
+下面几个链接或许是你正在寻找的：
+
+1. [Frontend Rescue](https://uptodate.frontendrescue.org/) - 帮助你获取前端资源
+1. [JSbooks](http://jsbooks.revolunet.com/) - 帮助你寻找和JS相关的书
+1. [Cooper Press 订阅](https://cooperpress.com/)
