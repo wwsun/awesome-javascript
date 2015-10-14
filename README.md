@@ -36,6 +36,7 @@
 
 - [Github: Backbone](https://github.com/jashkenas/backbone)
 - [Github: Underscore](https://github.com/jashkenas/underscore)
+- [Github: Immutable](https://facebook.github.io/immutable-js/)
 
 ### 敏捷方法与工具
 
@@ -73,6 +74,8 @@
 入门
 
 1. [Learn ES2015](https://babeljs.io/docs/learn-es2015/)
+1. [Arrow functions](http://www.infoq.com/cn/articles/es6-in-depth-arrow-functions)
+1. [Class](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
 
 ## Node.js
 
