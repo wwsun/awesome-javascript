@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using Fetch API with Generators</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <style>
+        .avatar {
+            height: 170px;
+            width: 170px;
+        }
+
+        .tile {
+            margin-top: 10px;
+        }
+
+        .tile .col-md-4 {
+            margin-top: 25%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#/">Using Fetch API and Generators</a>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-6" style="margin-top: 20px;">
+            <div class="col-md-6">Account</div>
+            <div class="col-md-6" id="login"></div>
+
+            <div class="col-md-6">Public Repos</div>
+            <div class="col-md-6" id="repoCount"></div>
+
+            <div class="col-md-6">Current Repo</div>
+            <div class="col-md-6" id="repoName"></div>
+
+            <div class="col-md-6">Repo Description</div>
+            <div class="col-md-6" id="repoDescription"></div>
+
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img id="avatar"/>
+        </div>
+    </div>
+    <div class="row" id="contributors">
+    </div>
+</div>
+
+<script src="node_modules/gulp-babel/node_modules/babel-core/browser-polyfill.js"></script>
+<script src="es5/app.js"></script>
+</body>
+</html>
