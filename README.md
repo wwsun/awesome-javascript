@@ -73,6 +73,7 @@
 
 ### JavaScript
 
+1. [日期和时间字符串](https://msdn.microsoft.com/library/ff743760)
 1. [Promise](http://javascript.ruanyifeng.com/advanced/promise.html)
 	- Github: [bluebird](https://github.com/petkaantonov/bluebird)
 	- Github: [q](https://github.com/kriskowal/q)
@@ -83,19 +84,22 @@
 1. [严格模式](http://javascript.ruanyifeng.com/advanced/strict.html)
 1. [ES5增加的新特性](http://speakingjs.com/es5/ch25.html)
 1. [ES6基本介绍](http://javascript.ruanyifeng.com/advanced/ecmascript6.html)
+1. [JavaScript的模块化进程](http://www.cnblogs.com/lvdabao/p/js-modules-develop.html)
+1. [Command Line API参考手册](https://developers.google.com/web/tools/chrome-devtools/debug/command-line/command-line-reference?hl=en)
 
 ### ES6
 
 语法转换 ES6 to ES5
 
-1. [Babel](https://babeljs.io/) - 推荐！
+1. [Babel](https://babeljs.io/) - 推荐！杀手级特性"human-readable output"
 1. [Traceur](https://github.com/google/traceur-compiler)
+1. [Babelify](https://github.com/babel/babelify): 将`babel`引入到Gulp, Grunt, npm run等构建过程
+1. [A Brief History of ES6 Tooling](https://ponyfoo.com/articles/a-brief-history-of-es6-tooling)
 
 入门
 
 1. [Learn ES2015](https://babeljs.io/docs/learn-es2015/)
-1. [Arrow functions](http://www.infoq.com/cn/articles/es6-in-depth-arrow-functions)
-1. [Class](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
+1. [ES6 Overview in 350 Bullet Points]()
 
 兼容性
 
@@ -141,7 +145,7 @@
 1. [JavaScripting.com](http://www.javascripting.com/)
 1. [JavaScriptOO](http://www.javascriptoo.com/)
 
-借助上面的两个网站，你能够迅速的找到相关的工具。
+借助上面的两个网站，你能够迅速的找到相关的工具。你还可以参考这篇文章来了解[JavaScript必备的工具和库](http://www.sitepoint.com/essential-tools-libraries-modern-javascript-developers/)。
 下面会继续列举一些常用的工具、库、或框架：
 
 1. 自动构建
@@ -159,6 +163,7 @@
 1. 前端工具
 
 	- 浏览器特性检测工具：[Modernizr](https://modernizr.com/)
+	- 高级JavaScript调试工具库：[debug util](https://github.com/amasad/debug_utils)
 
 1. 文档生成
 	
