@@ -74,6 +74,7 @@
 ### JavaScript
 
 1. [日期和时间字符串](https://msdn.microsoft.com/library/ff743760)
+1. [处理Cookies](http://www.sitepoint.com/how-to-deal-with-cookies-in-javascript/)
 1. [Promise](http://javascript.ruanyifeng.com/advanced/promise.html)
 	- Github: [bluebird](https://github.com/petkaantonov/bluebird)
 	- Github: [q](https://github.com/kriskowal/q)
@@ -148,10 +149,17 @@
 借助上面的两个网站，你能够迅速的找到相关的工具。你还可以参考这篇文章来了解[JavaScript必备的工具和库](http://www.sitepoint.com/essential-tools-libraries-modern-javascript-developers/)。
 下面会继续列举一些常用的工具、库、或框架：
 
+1. 版本控制
+
+	- [Git](https://git-scm.com/) | [try git](https://try.github.io/levels/1/challenges/1)
+	- [Github](https://github.com/)
+	- [SVN](https://subversion.apache.org/)
+	- [Read more...](http://www.sitepoint.com/version-control-software-2014-what-options/)
+
 1. 自动构建
 
-	- [Gulp](http://gulpjs.com/)
-	- [Grunt](http://gruntjs.com/)
+	- [Gulp](http://gulpjs.com/) | [Introduction](http://www.sitepoint.com/introduction-gulp-js/)
+	- [Grunt](http://gruntjs.com/) | [Introduction](http://www.sitepoint.com/introduction-grunt/)
 
 1. 代码质量
 
@@ -159,6 +167,7 @@
 	- [JSHint](http://jshint.com/), by Anton Kovalyov
 	- [ESLint](http://eslint.org/), by Nicholas Zaks
 	- [JSCS](http://jscs.info/)
+	- [A Comparision of JavaScript Linting Tools](http://www.sitepoint.com/comparison-javascript-linting-tools/)
 
 1. 前端工具
 
@@ -167,13 +176,19 @@
 
 1. 文档生成
 	
-	- [JSDoc](http://speakingjs.com/es5/ch29.html)
+	- [JSDoc](http://usejsdoc.org/)
+	- [YUIDoc](http://yui.github.io/yuidoc/)
+	- [Read more...](http://www.sitepoint.com/products-documentation-good-enough/)
 
 1. 工具库
 
 	- 提供大量工具函数：[Underscore.js](http://underscorejs.org/)
 	- 工具函数库：[Lo-Dash](http://lodash.com/)
 	- 正则表达式库：[XRegExp](http://xregexp.com/)
+	- 图形化解释正则表达式：[RegExper](http://www.sitepoint.com/regexper-regular-expressions-explained/)
+	- 代码压缩丑化：[UglifyJS](http://lisperator.net/uglifyjs/) and [YUI Compressor](http://yui.github.io/yuicompressor/)
+	- 浮点数工具库：[Accounting.js](http://openexchangerates.github.io/accounting.js/)
+	- 日期时间工具库：[Moment.js](http://momentjs.com/) | [Tutorial](http://www.sitepoint.com/managing-dates-times-using-moment-js/)
 
 1. UI框架
 
@@ -203,19 +218,58 @@
 		- CommonJS (Node, 同步加载)
 		- AMD：[RequireJS](http://requirejs.org/)(浏览器，异步加载)
 		- [ES6 Module](www.2ality.com/2014/09/es6-modules-final.html)
+		- [A primer on module management](http://www.sitepoint.com/understanding-requirejs-for-effective-javascript-module-loading/)
 	- 包管理器
 		- [npm](https://npmjs.org/)(Node包管理器)
 		- [Bower](http://bower.io/)（主要是前端资源包）
-		- [Browserify](http://browserify.org/)(将Npm包转为浏览器友好的)
+		- [Browserify](http://browserify.org/)(将Npm包转为浏览器友好的) | [Intro](http://www.sitepoint.com/getting-started-browserify/)
 
-1. JS单元测试
+1. 单元测试
 
 	- [Mocha](http://visionmedia.github.io/mocha/)
-	- [Jasmine](http://pivotal.github.io/jasmine/)
-	- QUnit
+	- [Jasmine](http://pivotal.github.io/jasmine/) | [Intro](http://www.sitepoint.com/testing-javascript-jasmine-travis-karma/)
+	- [QUnit](https://qunitjs.com/) | [Intro](http://www.sitepoint.com/getting-started-qunit/)
 	- Tape
-	- Jest
+	- Jest - React组件单元测试
 	- Karma
+	- 跨平台多浏览器测试
+		- [BrowserStack](https://www.browserstack.com/)
+		- [Sauce Labs](https://saucelabs.com/) | [Guide](http://www.sitepoint.com/testing-in-the-cloud-using-saucelabs/)
+
+1. 代码衡量
+
+High code coverage means lower chances for your program to contains bugs.
+
+	- [Istanbul](http://gotwarlost.github.io/istanbul/) - 衡量测试覆盖率
+	- [Plato](https://github.com/es-analysis/plato) - 可视化代码复杂度
+	- [An article on code metrics](http://www.sitepoint.com/code-metrics-and-you/)
+
+1. 实时应用
+	
+	- [Meteor](https://www.meteor.com/)
+	- [SocketStream](http://www.socketstream.org/)
+	- [Socket.io](http://socket.io/)
+	- [构建基于Node.js的聊天室](http://www.sitepoint.com/build-node-js-powered-chatroom-web-app-getting-started/)
+
+1. 单页应用SAP
+	
+	- [AngularJS](https://angularjs.org/)
+	- [Backbone](http://documentcloud.github.io/backbone/)
+	- [Ember](http://emberjs.com/)
+	- [React](http://facebook.github.io/react/)
+	- [KnockoutJS](http://knockoutjs.com/)
+	
+1. 函数式JavaScript
+
+	- [UnderscoreJS](http://underscorejs.org/)
+	- [Lodash](https://lodash.com/)
+	- [An introduction to functional programming in JavaScript](http://www.sitepoint.com/introduction-functional-javascript/)
+	
+1. 模版引擎
+
+	- [Handlebars](http://handlebarsjs.com/) | [Guide](http://www.sitepoint.com/a-beginners-guide-to-handlebars/)
+	- [Mustache](http://mustache.github.io/) | [Guide](http://www.sitepoint.com/creating-html-templates-with-mustachejs/)
+	- [Jade](http://jade-lang.com/)
 
 1. 前端资源CDN服务：
 	- [BootCDN](http://www.bootcdn.cn/)
