@@ -28,6 +28,7 @@
 ## 专题列表
 
 - [React相关资源](./sections/React/)
+- [AngularJS相关资源](./sections/Angular/)
 - [JavaScript语法解析](./sections/Ast/)
 
 ## 基础
@@ -238,7 +239,7 @@
 
 1. 代码衡量
 
-High code coverage means lower chances for your program to contains bugs.
+	High code coverage means lower chances for your program to contains bugs.
 
 	- [Istanbul](http://gotwarlost.github.io/istanbul/) - 衡量测试覆盖率
 	- [Plato](https://github.com/es-analysis/plato) - 可视化代码复杂度
