@@ -72,7 +72,19 @@
 	- TDD: Test-Driven Development by Example (book)
 	- Pair Programming
 
+### Web安全
+
+1. [Cross Site Scripting - XSS](http://www.cnblogs.com/TankXiao/archive/2012/03/21/2337194.html)
+
 ### JavaScript
+
+Foundmental topics
+
+1. [Functional Programming 函数式编程]()
+1. [Prototyped-based OOP 基于原型的面向对象编程]()
+1. [Async/Concurrent Programming 异步/并发编程]()
+
+Other topics
 
 1. [日期和时间字符串](https://msdn.microsoft.com/library/ff743760)
 1. [处理Cookies](http://www.sitepoint.com/how-to-deal-with-cookies-in-javascript/)
@@ -114,6 +126,10 @@
 1. [Node.js In Action](http://book.douban.com/subject/25870705/)
 1. [深入浅出Node.js](http://book.douban.com/subject/25768396/)
 
+### 开发实践
+
+1. [NODE_PATH](http://docs.spmjs.org/doc/environment#设置-path-和-node-path)
+
 ### 最佳实践
 
 1. [Node.js最佳实践：第一部分](http://wwsun.me/posts/node-best-practices.html)
@@ -132,12 +148,20 @@
 
 ### 常用NPM工具模块
 
+> 感兴趣的可以参考NPM中被[依赖次数最多的模块](https://www.npmjs.com/browse/depended)列表
+
+1. JS工具函数库：[lodash](https://lodash.com/)
 1. JavaScript编写同步代码辅助工具包：[async](https://github.com/caolan/async)
+1. 精简版HTTP请求客户端：[request](https://github.com/request/request)
 1. 配置管理工具包：[nconf](https://github.com/indexzero/nconf)
 1. 基于生成器的控制流管理工具包：[co](https://github.com/tj/co)
-1. 模块调试：[debug](https://www.npmjs.com/package/debug)
+1. 轻量级模块调试工具：[debug](https://www.npmjs.com/package/debug)
 1. 构建请求: [superagent](https://www.npmjs.com/package/superagent)
 1. 辅助测试工具：[Sinon.js](http://sinonjs.org/)
+
+### 调试、性能与安全
+
+1. [Node.js的代码调试和性能调优](http://www.barretlee.com/blog/2015/10/07/debug-nodejs-in-command-line/)
 
 ## 开发工具和库
 
@@ -285,3 +309,8 @@
 1. [Frontend Rescue](https://uptodate.frontendrescue.org/) - 帮助你获取前端资源
 1. [JSbooks](http://jsbooks.revolunet.com/) - 帮助你寻找和JS相关的书
 1. [Cooper Press 订阅](https://cooperpress.com/)
+
+### Other links
+
+1. [JavaScript Training Sucks](https://medium.com/javascript-scene/javascript-training-sucks-284b53666245#.cbq5ijonh)
+1. [The Two Pillars of JavaScript: part one - how to escape the 7th circle of hell](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3#.47bfua546)
