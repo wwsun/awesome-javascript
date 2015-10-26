@@ -74,7 +74,12 @@
 
 ### Web安全
 
-1. [Cross Site Scripting - XSS](http://www.cnblogs.com/TankXiao/archive/2012/03/21/2337194.html)
+1. [跨站脚本攻击 - XSS](http://www.cnblogs.com/TankXiao/archive/2012/03/21/2337194.html)
+1. [跨站请求伪造 - CSRF](https://www.wikiwand.com/zh-cn/%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0)
+1. [SQL注入](https://technet.microsoft.com/zh-cn/library/ms161953.aspx)
+1. [拒绝服务 - DDoS](https://www.wikiwand.com/zh-cn/%E9%98%BB%E6%96%B7%E6%9C%8D%E5%8B%99%E6%94%BB%E6%93%8A)
+1. [An Introduction to Content Security Policy](http://www.html5rocks.com/en/tutorials/security/content-security-policy)
+1. More: [Web Application Security Testing Cheat Sheet](https://www.owasp.org/index.php/Web_Application_Security_Testing_Cheat_Sheet)
 
 ### JavaScript
 
@@ -113,7 +118,8 @@ Other topics
 入门
 
 1. [Learn ES2015](https://babeljs.io/docs/learn-es2015/)
-1. [ES6 Overview in 350 Bullet Points]()
+1. [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
+1. 百度EFE：[使用ES6进行开发的思考](http://efe.baidu.com/blog/es6-develop-overview/)
 
 兼容性
 
@@ -162,6 +168,7 @@ Other topics
 ### 调试、性能与安全
 
 1. [Node.js的代码调试和性能调优](http://www.barretlee.com/blog/2015/10/07/debug-nodejs-in-command-line/)
+1. [Node.js安全清单](http://segmentfault.com/a/1190000003860400)
 
 ## 开发工具和库
 
