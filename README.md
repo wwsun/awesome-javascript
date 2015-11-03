@@ -83,7 +83,12 @@
 
 ### JavaScript
 
-Foundmental topics
+核心基础语法点
+
+- [this](http://www.ibm.com/developerworks/cn/web/1207_wangqf_jsthis/index.html)
+- [闭包](http://wwsun.github.io/posts/javascript-closure.html)
+
+核心概念
 
 1. [Functional Programming 函数式编程]()
 1. [Prototyped-based OOP 基于原型的面向对象编程]()
@@ -169,6 +174,8 @@ Other topics
 
 1. [Node.js的代码调试和性能调优](http://www.barretlee.com/blog/2015/10/07/debug-nodejs-in-command-line/)
 1. [Node.js安全清单](http://segmentfault.com/a/1190000003860400)
+1. [Debug with Source Maps](http://blog.getsentry.com/2015/10/29/debuggable-javascript-with-source-maps.html)
+1. 雅虎: [网站性能优化建议](https://developer.yahoo.com/performance/rules.html)
 
 ## 开发工具和库
 
