@@ -47,10 +47,11 @@
 - [JavaScript高级程序设计（第3版）](http://book.douban.com/subject/10546125/)
 - [JavaScript语言精粹](http://book.douban.com/subject/11874748/)
 - [Speaking JavaScript](http://speakingjs.com/es5/index.html)
+- [You Don't Konw JS](https://github.com/getify/You-Dont-Know-JS)
 - JavaScript权威指南
 - Eloquent JavaScript
 - JavaScript忍者禁术
-- You Don't Know JS
+- [Superhero.js - JS学习资料集](http://superherojs.com/)
 - [阮一峰：JavaScript标准参考教程](http://javascript.ruanyifeng.com/)
 
 ### 源代码阅读
@@ -94,6 +95,10 @@
 1. [Prototyped-based OOP 基于原型的面向对象编程]()
 1. [Async/Concurrent Programming 异步/并发编程]()
 
+关键知识点
+
+- [正则表达式](http://qntm.org/files/re/re.html)
+
 Other topics
 
 1. [日期和时间字符串](https://msdn.microsoft.com/library/ff743760)
@@ -111,7 +116,12 @@ Other topics
 1. [JavaScript的模块化进程](http://www.cnblogs.com/lvdabao/p/js-modules-develop.html)
 1. [Command Line API参考手册](https://developers.google.com/web/tools/chrome-devtools/debug/command-line/command-line-reference?hl=en)
 
-### ES6
+### ECMAScript 2015 (ES6)
+
+阅读材料
+
+1. [Understanding ES6](https://leanpub.com/understandinges6/read/) by Nicholas C.Zakas
+1. [Exploring ES6](http://exploringjs.com/es6/) by Axel Rauschmayer
 
 语法转换 ES6 to ES5
 
@@ -123,12 +133,15 @@ Other topics
 入门
 
 1. [Learn ES2015](https://babeljs.io/docs/learn-es2015/)
+1. [ES6 - New features Overview & Comparison](http://es6-features.org/)
 1. [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
 1. 百度EFE：[使用ES6进行开发的思考](http://efe.baidu.com/blog/es6-develop-overview/)
+1. [ES6 Features](http://www.sitepoint.com/20-docs-guides-front-end-developers/)
 
-兼容性
+其他
 
-[ES5/ES6 compatibility table](http://kangax.github.io/compat-table/es6/)
+1. [ES5/ES6 compatibility table](http://kangax.github.io/compat-table/es6/)
+1. [ES6 Cheatsheet](http://help.wtf/es6)
 
 ## Node.js
 
