@@ -152,7 +152,22 @@ Other topics
 
 ### 开发实践
 
+基础知识
+
 1. [NODE_PATH](http://docs.spmjs.org/doc/environment#设置-path-和-node-path)
+
+垃圾回收
+
+1. [A tour of V8: Garbage Collection](http://www.jayconrod.com/posts/55/a-tour-of-v8-garbage-collection) | [CHN](http://newhtml.net/v8-garbage-collection/)
+1. [Top Node.js metrics to watch](https://www.oreilly.com/ideas/top-nodejs-metrics-to-watch)
+1. [Goole V8的垃圾回收](http://www.infoq.com/cn/news/2015/08/Google-V8)
+1. [浅谈V8引擎中的垃圾回首机制](http://segmentfault.com/a/1190000000440270)
+
+性能对比
+
+1. [Performance Comparison Between Node.js and Java EE](https://dzone.com/articles/performance-comparison-between)
+1. [Java EE threads vs Node.js - which is better for concurrent data processing operations](http://bijoor.me/2013/06/09/java-ee-threads-vs-node-js-which-is-better-for-concurrent-data-processing-operations/)
+1. [What Makes Node.js Faster Than Java](https://strongloop.com/strongblog/node-js-is-faster-than-java/)
 
 ### 最佳实践
 
