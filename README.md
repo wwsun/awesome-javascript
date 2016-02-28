@@ -5,6 +5,83 @@
 况且今天这个当初的小玩意的目标是编写大型的企业应用。如果你对JavaScript的理解仅限于DOM操纵，页面动画，jQuery等等，
 本列表将为你展现JavaScript的更多的令人震撼的功能。
 
+## Base
+
+### Readings
+
+- [Speaking JavaScript](http://speakingjs.com/es5/index.html)
+- [JavaScript高级程序设计]()
+
+### ECMAScript
+
+- [The TC39 process for ECMAScript features](http://www.2ality.com/2015/11/tc39-process.html) | [中文](http://wwsun.github.io/posts/new-in-es2016.html)
+
+### DOM
+
+文档对象模型（DOM）是针对XML但经过扩展用于HTML的应用程序编程接口。DOM把整个页面映射为一个多层节点结构。
+
+- MDN: [DOM Levels](https://developer.mozilla.org/fr/docs/DOM_Levels)
+
+### BOM
+
+BOM用于访问和操作浏览器窗口。BOM在HTML5规范中被正式纳入规范。
+
+
+### JavaScript In HTML
+
+- MDN: [`<script>`元素](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+- [HTML文档模式`doctype`](http://www.w3school.com.cn/html/html_doctype.asp)
+
+### Syntax
+
+- 语法基础
+    - [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+    - [JavaScript基础语法概览](http://speakingjs.com/es5/ch01.html#_syntax)
+    - ES5: [建议使用严格模式 `use strict;`](http://speakingjs.com/es5/ch01.html#_strict_mode)
+    - [严格模式详解](http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html)
+- 数据类型（Undefined、Null、Boolean、Number、String、Object）
+    - [undefined and null](http://speakingjs.com/es5/ch01.html#basic_undefined_null)
+    - MDN: [undefined](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+    - MDN: [NaN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+    - [JavaScript数据类型转换](http://javascript.ruanyifeng.com/grammar/conversion.html)
+    - MDN: [Object类型](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+    - [`Object.prototype.Constructor`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor)
+    - [使用`typeof`操作符检查基本数据类型](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/typeof)
+    - [使用`instanceof`操作符检查引用类型](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/instanceof)
+- 操作符
+    - MDN: [JavaScript位操作符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators)
+- 语句
+    - [使用`for-in`枚举对象的属性](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...in)
+- 函数
+    - [函数中的`arguments`对象](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/arguments)
+    - [`arguments.callee` & `arguments.caller`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/arguments/callee)
+    - [ECMAScript中的函数的参数都是按值传递的](http://weizhifeng.net/arguments-of-function-in-JavaScript.html)
+- 执行环境（execution context）和作用域
+    - [JavaScript中的执行环境：全局执行环境和函数内执行环境](http://www.techjs.com/blog/2015/09/13/javascript-%E6%89%A7%E8%A1%8C%E7%8E%AF%E5%A2%83/)
+    - [Understanding Scope and Context in JavaScript](http://ryanmorr.com/understanding-scope-and-context-in-javascript/)
+    - [深入理解JavaScript的变量作用域：全局作用域和函数内作用域](http://www.cnblogs.com/rainman/archive/2009/04/28/1445687.html)
+    - [认识javascript中的作用域和上下文](http://yanhaijing.com/javascript/2013/08/30/understanding-scope-and-context-in-javascript/)
+
+### 内存问题
+
+- MDN: [JavaScript内存管理](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Memory_Management)
+- [JavaScript垃圾回收机制](http://www.cnblogs.com/hustskyking/archive/2013/04/27/garbage-collection.html)
+- [JavaScript垃圾回收](http://www.cnblogs.com/dolphinX/p/3348468.html)
+
+### ES6
+
+
+
+## Node.js
+
+
+
+
+
+
+
+
+
 ## 专题列表
 
 - [React相关资源](./sections/React/)
