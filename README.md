@@ -294,7 +294,7 @@ Other topics
 1. 单元测试
 
 	- [Mocha](http://visionmedia.github.io/mocha/)
-	- [Jasmine](http://pivotal.github.io/jasmine/) | [Intro](http://www.sitepoint.com/testing-javascript-jasmine-travis-karma/)
+	- [Jasmine](https://jasmine.github.io/) | [Intro](http://www.sitepoint.com/testing-javascript-jasmine-travis-karma/)
 	- [QUnit](https://qunitjs.com/) | [Intro](http://www.sitepoint.com/getting-started-qunit/)
 	- Tape
 	- Jest - React组件单元测试
