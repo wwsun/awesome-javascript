@@ -293,7 +293,7 @@ Other topics
 
 1. 单元测试
 
-	- [Mocha](http://visionmedia.github.io/mocha/)
+	- [Mocha](http://mochajs.org/)
 	- [Jasmine](http://pivotal.github.io/jasmine/) | [Intro](http://www.sitepoint.com/testing-javascript-jasmine-travis-karma/)
 	- [QUnit](https://qunitjs.com/) | [Intro](http://www.sitepoint.com/getting-started-qunit/)
 	- Tape
