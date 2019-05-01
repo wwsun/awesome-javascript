@@ -81,6 +81,7 @@
 1. [拒绝服务 - DDoS](https://www.wikiwand.com/zh-cn/%E9%98%BB%E6%96%B7%E6%9C%8D%E5%8B%99%E6%94%BB%E6%93%8A)
 1. [An Introduction to Content Security Policy](http://www.html5rocks.com/en/tutorials/security/content-security-policy)
 1. More: [Web Application Security Testing Cheat Sheet](https://www.owasp.org/index.php/Web_Application_Security_Testing_Cheat_Sheet)
+1. [JavaScript Beginners: Friendly Intro & Exercises](https://snipcart.com/blog/javascript-beginner-intro-exercises)
 
 ### JavaScript
 
